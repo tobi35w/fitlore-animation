@@ -22,7 +22,15 @@ def log(msg: str):
 
 
 def get_python_exe() -> str:
-    # Use current running python interpreter (compatible with cloud and local venvs)
+    # On Windows, check for the dedicated Kokoro virtual environment first
+    voice_pack_venv = Path(r"C:\Users\tobik\Documents\voice pack\.venv\Scripts\python.exe")
+    if voice_pack_venv.exists():
+        return str(voice_pack_venv)
+    # Check local project venv
+    local_venv = SHORTS_DIR / ".venv" / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
+    if local_venv.exists():
+        return str(local_venv)
+    # Default to current running python interpreter (Linux/cloud containers)
     return sys.executable
 
 

@@ -36,7 +36,7 @@ jobs:
       - name: Install System Dependencies for Linux Rendering
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg libasound2 libgbm1 libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxrandr2 libpango-1.0-0 libcairo2 libxkbcommon0 chromium-browser
+          sudo apt-get install -y ffmpeg espeak-ng libasound2 libgbm1 libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxrandr2 libpango-1.0-0 libcairo2 libxkbcommon0 chromium-browser
 
       - name: Install Node Dependencies
         working-directory: claude-animated-shorts
