@@ -5,7 +5,17 @@ import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 
 export const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-export const python = path.join(root, '.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python');
+
+function findPython() {
+  if (process.env.PYTHON_PATH && fs.existsSync(process.env.PYTHON_PATH)) return process.env.PYTHON_PATH;
+  const voicePackVenv = 'C:/Users/tobik/Documents/voice pack/.venv/Scripts/python.exe';
+  if (process.platform === 'win32' && fs.existsSync(voicePackVenv)) return voicePackVenv;
+  const localVenv = path.join(root, '.venv', process.platform === 'win32' ? 'Scripts/python.exe' : 'bin/python');
+  if (fs.existsSync(localVenv)) return localVenv;
+  return process.platform === 'win32' ? 'python.exe' : 'python3';
+}
+
+export const python = findPython();
 export const pythonEnv = { ...process.env, PYTHONUTF8: '1', PYTHONUNBUFFERED: '1' };
 export const resolve = (...parts) => path.resolve(root, ...parts);
 export function ensureDir(directory) { fs.mkdirSync(directory, { recursive: true }); return directory; }

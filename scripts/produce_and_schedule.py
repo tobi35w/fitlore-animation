@@ -35,6 +35,13 @@ def get_python_exe() -> str:
     return sys.executable
 
 
+def get_publisher_python_exe() -> str:
+    pub_venv = PUBLISHER_DIR / ".venv" / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
+    if pub_venv.exists():
+        return str(pub_venv)
+    return get_python_exe()
+
+
 def load_library():
     with open(LIBRARY_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -65,20 +72,20 @@ def run_test_mode():
         "--speed", "1.0",
         "--out-dir", str(test_voice_dir)
     ])
-    log("✓ Kokoro voice synthesis test passed!")
+    log("[PASS] Kokoro voice synthesis test passed!")
 
     # 2. Test Remotion rendering (30-frame slice)
     log("[TEST 2/3] Testing Remotion headless Chromium rendering...")
     test_video_output = out_test_dir / "test-render-30f.mp4"
     render_cmd = ["node", "scripts/cli.mjs", "render", "FourteenMondays", "--quality", "draft", "--frames", "0-30", "--out", str(test_video_output)]
     subprocess.check_call(render_cmd, cwd=str(SHORTS_DIR))
-    log("✓ Remotion headless rendering test passed!")
+    log("[PASS] Remotion headless rendering test passed!")
 
     # 3. Test SchedulePost API & storage presigning
     log("[TEST 3/3] Testing SchedulePost API authentication and storage target...")
-    pub_cmd = [get_python_exe(), "main.py", "verify", "--upload-target-test"]
+    pub_cmd = [get_publisher_python_exe(), "main.py", "verify", "--upload-target-test"]
     subprocess.check_call(pub_cmd, cwd=str(PUBLISHER_DIR))
-    log("✓ SchedulePost connection and storage test passed!")
+    log("[PASS] SchedulePost connection and storage test passed!")
 
     log("=== ALL PIPELINE VERIFICATION TESTS PASSED SUCCESSFULLY! ===")
 
@@ -162,11 +169,11 @@ def main():
 
     # 3. Schedule via Publisher
     log("Scheduling post on SchedulePost for YouTube Shorts at 7:30 PM WAT...")
-    pub_cmd = [get_python_exe(), "main.py", "process"]
+    pub_cmd = [get_publisher_python_exe(), "main.py", "process"]
     subprocess.check_call(pub_cmd, cwd=str(PUBLISHER_DIR))
 
     # 4. Reconcile confirmation
-    reconcile_cmd = [get_python_exe(), "main.py", "reconcile"]
+    reconcile_cmd = [get_publisher_python_exe(), "main.py", "reconcile"]
     subprocess.check_call(reconcile_cmd, cwd=str(PUBLISHER_DIR))
 
     log(f"Daily automation run for Idea #{idea_id} completed successfully!")
