@@ -62,18 +62,18 @@ jobs:
 
       - name: Execute Daily Video Production & Scheduling
         run: |
-          if [ "${{ github.event.inputs.test_mode }}" = "true" ]; then
+          if [ "${{ inputs.test_mode }}" = "true" ]; then
             python scripts/produce_and_schedule.py --test
           else
             python scripts/produce_and_schedule.py
           fi
 
       - name: Commit & Push Updated History and Receipts
-        if: github.event.inputs.test_mode != 'true'
+        if: ${{ !inputs.test_mode }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add FITLORE_VIDEO_LIBRARY.json Rendered\ Videos/*.json Rendered\ Videos/*.srt claude-animated-shorts/projects/
+          git add FITLORE_VIDEO_LIBRARY.json "Rendered Videos"/*.json "Rendered Videos"/*.srt claude-animated-shorts/projects/
           if ! git diff --staged --quiet; then
             git commit -m "chore(automation): record completed video and SchedulePost receipt [skip ci]"
             git push
