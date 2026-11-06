@@ -5,6 +5,11 @@ on:
     # 11:00 UTC is 12:00 WAT (Africa/Lagos)
     - cron: '0 11 * * *'
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Run end-to-end verification test'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -57,9 +62,14 @@ jobs:
 
       - name: Execute Daily Video Production & Scheduling
         run: |
-          python scripts/produce_and_schedule.py
+          if [ "${{ github.event.inputs.test_mode }}" = "true" ]; then
+            python scripts/produce_and_schedule.py --test
+          else
+            python scripts/produce_and_schedule.py
+          fi
 
       - name: Commit & Push Updated History and Receipts
+        if: github.event.inputs.test_mode != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

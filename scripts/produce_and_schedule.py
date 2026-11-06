@@ -2,6 +2,7 @@
 
 Compatible with both local Windows workstations and headless Linux cloud runners.
 """
+import argparse
 import datetime
 import json
 import os
@@ -44,7 +45,53 @@ def save_library(data):
         json.dump(data, f, indent=2)
 
 
+def run_test_mode():
+    log("=== RUNNING CLOUD END-TO-END PIPELINE VERIFICATION TEST ===")
+    out_test_dir = ROOT / "out" / "test_verification"
+    out_test_dir.mkdir(parents=True, exist_ok=True)
+
+    # 1. Test Kokoro TTS synthesis
+    log("[TEST 1/3] Testing Kokoro TTS voice synthesis (am_adam 1.0x)...")
+    test_text_file = out_test_dir / "test_narration.txt"
+    test_text_file.write_text("Hello! This is an autonomous pipeline verification test for FitLore shorts.", encoding="utf-8")
+    test_voice_dir = out_test_dir / "voice"
+    test_voice_dir.mkdir(parents=True, exist_ok=True)
+    kokoro_script = SHORTS_DIR / "scripts" / "kokoro_voice.py"
+    subprocess.check_call([
+        get_python_exe(),
+        str(kokoro_script),
+        "--text", str(test_text_file),
+        "--voice", "am_adam",
+        "--speed", "1.0",
+        "--out-dir", str(test_voice_dir)
+    ])
+    log("✓ Kokoro voice synthesis test passed!")
+
+    # 2. Test Remotion rendering (30-frame slice)
+    log("[TEST 2/3] Testing Remotion headless Chromium rendering...")
+    test_video_output = out_test_dir / "test-render-30f.mp4"
+    render_cmd = ["node", "scripts/cli.mjs", "render", "FourteenMondays", "--quality", "draft", "--frames", "0-30", "--out", str(test_video_output)]
+    subprocess.check_call(render_cmd, cwd=str(SHORTS_DIR))
+    log("✓ Remotion headless rendering test passed!")
+
+    # 3. Test SchedulePost API & storage presigning
+    log("[TEST 3/3] Testing SchedulePost API authentication and storage target...")
+    pub_cmd = [get_python_exe(), "main.py", "verify", "--upload-target-test"]
+    subprocess.check_call(pub_cmd, cwd=str(PUBLISHER_DIR))
+    log("✓ SchedulePost connection and storage test passed!")
+
+    log("=== ALL PIPELINE VERIFICATION TESTS PASSED SUCCESSFULLY! ===")
+
+
 def main():
+    parser = argparse.ArgumentParser(description="FitLore Autopilot Daily Runner")
+    parser.add_argument("--test", action="store_true", help="Run end-to-end pipeline verification test")
+    args = parser.parse_args()
+
+    if args.test:
+        run_test_mode()
+        return
+
     log("Starting autonomous FitLore daily video production runner...")
     RENDERED_DIR.mkdir(parents=True, exist_ok=True)
 
