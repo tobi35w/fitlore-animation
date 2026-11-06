@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "complete": true,
+  "filename": "TenThousandSteps-final.mp4",
+  "size": 16066198,
+  "sha256": "32c1cdfbd52a39009d3c230361f6a04f3f7d4d6486523f04a63d5e2d2c20a4cd",
+  "publish": true,
+  "source": "blur-publisher-local-validation",
+  "validation": {
+    "duration": 124.843,
+    "width": 1024,
+    "height": 1536,
+    "codec": "h264",
+    "pixel_format": "yuvj420p",
+    "rotation": 0,
+    "audio": "aac"
+  }
+}

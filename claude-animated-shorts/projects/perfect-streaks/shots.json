@@ -1,0 +1,135 @@
+{
+  "shots": [
+    {
+      "id": 1,
+      "a": 0,
+      "b": 97,
+      "title": "A month declared lost"
+    },
+    {
+      "id": 2,
+      "a": 97,
+      "b": 242,
+      "title": "The evening ritual"
+    },
+    {
+      "id": 3,
+      "a": 242,
+      "b": 355,
+      "title": "Protecting the squares"
+    },
+    {
+      "id": 4,
+      "a": 355,
+      "b": 406,
+      "title": "The lane floods"
+    },
+    {
+      "id": 5,
+      "a": 406,
+      "b": 460,
+      "title": "One blank square"
+    },
+    {
+      "id": 6,
+      "a": 460,
+      "b": 555,
+      "title": "Toward the bin"
+    },
+    {
+      "id": 7,
+      "a": 555,
+      "b": 626,
+      "title": "The neighbour's wall"
+    },
+    {
+      "id": 8,
+      "a": 626,
+      "b": 704,
+      "title": "An unsolicited brick lecture"
+    },
+    {
+      "id": 9,
+      "a": 704,
+      "b": 859,
+      "title": "The bricks remain"
+    },
+    {
+      "id": 10,
+      "a": 859,
+      "b": 967,
+      "title": "Repetition in context"
+    },
+    {
+      "id": 11,
+      "a": 967,
+      "b": 1107,
+      "title": "A limited study finding"
+    },
+    {
+      "id": 12,
+      "a": 1107,
+      "b": 1238,
+      "title": "Adding a brick"
+    },
+    {
+      "id": 13,
+      "a": 1238,
+      "b": 1327,
+      "title": "A site left idle"
+    },
+    {
+      "id": 14,
+      "a": 1327,
+      "b": 1406,
+      "title": "Shoes at the same doorway"
+    },
+    {
+      "id": 15,
+      "a": 1406,
+      "b": 1568,
+      "title": "The next sensible step"
+    },
+    {
+      "id": 16,
+      "a": 1568,
+      "b": 1713,
+      "title": "A gap and seven later squares"
+    },
+    {
+      "id": 17,
+      "a": 1713,
+      "b": 1799,
+      "title": "The calendar lies flat"
+    },
+    {
+      "id": 18,
+      "a": 1799,
+      "b": 1881,
+      "title": "Progress needs a paperweight"
+    }
+  ],
+  "planned": [],
+  "xfade": [
+    [
+      555,
+      561
+    ],
+    [
+      859,
+      865
+    ],
+    [
+      1327,
+      1333
+    ],
+    [
+      1568,
+      1574
+    ],
+    [
+      1713,
+      1719
+    ]
+  ]
+}

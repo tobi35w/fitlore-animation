@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "idea_id": 91,
+  "project_slug": "perfect-streaks",
+  "title": "Missed One Workout? Don’t Throw Away the Month",
+  "updated_at": "2026-11-04T14:36:59.514884+00:00",
+  "video": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam.mp4",
+  "video_sha256": "a77fbce400bfed2d47e9d58ebf8a7c1af13a331afef16f24075f54e848f7c9d3",
+  "metadata": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam.json",
+  "cover": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam-cover.png",
+  "captions": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam.srt",
+  "contact_sheet": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam-contact-sheet.jpg",
+  "platforms": [
+    "youtube"
+  ],
+  "provider": "SchedulePost",
+  "youtube_account": "FitLore",
+  "youtube_connection_id": "921a9763-4490-4e8c-bbf1-5bd88cb30cd1",
+  "proposed_schedule_at": "2026-11-04T19:30:00+01:00",
+  "proposed_schedule_utc": "2026-11-04T18:30:00Z",
+  "confirmed_schedule_at": "2026-11-04T19:30:00+01:00",
+  "remote_post_id": "b658ba9b-848a-48db-b94e-112e4578001a",
+  "published_urls": [],
+  "status": "scheduled",
+  "preflight": "C:\\Users\\tobik\\Documents\\Animation\\video_publisher\\data\\perfect-streaks-live-preflight-2026-11-04.json",
+  "duplicate_check": {
+    "history_complete": true,
+    "matching_posts": 1,
+    "posts_at_slot": 1
+  },
+  "external_writes": true,
+  "configuration_changed": true,
+  "analytics": "Accessible authenticated Studio belonged to a different channel. No FitLore audience-activity or 24/48-hour data were available; the 19:30 WAT slot remains a hypothesis.",
+  "next_action": "After 4 November 2026 at 19:30 WAT, reconcile SchedulePost post b658ba9b-848a-48db-b94e-112e4578001a through the existing publisher. Record a YouTube URL and mark published only after verified delivery; preserve this booking and its idempotency key.",
+  "live_authorization": "C:\\Users\\tobik\\Documents\\Animation\\video_publisher\\data\\schedulepost-live-enablement-2026-11-04.json",
+  "local_video_id": 4,
+  "resolved_blockers": [
+    "Current configuration is DRY_RUN=true and AUTO_PUBLISH=false; user instructed preserving these settings.",
+    "The existing local publisher supports immediate/queue, and does not pass an exact scheduled time to the documented SchedulePost /schedule endpoint. Its integration was preserved."
+  ],
+  "blockers": [],
+  "receipt": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v2-Liam-schedulepost-receipt.json"
+}

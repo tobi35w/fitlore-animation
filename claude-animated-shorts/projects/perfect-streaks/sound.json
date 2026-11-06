@@ -1,0 +1,328 @@
+{
+  "targetLufs": -14,
+  "music": {
+    "enabled": true,
+    "bpm": 96,
+    "file": "projects/perfect-streaks/audio/generated/original-score.wav",
+    "gainDb": -7,
+    "duckDb": -7
+  },
+  "sfx": [
+    {
+      "name": "failure",
+      "frame": 70,
+      "shot": 1,
+      "at": 2.333333333,
+      "file": "projects/perfect-streaks/audio/generated/paper-flutter.wav",
+      "duration": 0.38,
+      "gainDb": -18,
+      "reason": "Calendar trembles as Marcus declares failure."
+    },
+    {
+      "name": "footstep-112",
+      "frame": 112,
+      "shot": 2,
+      "at": 3.733333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-127",
+      "frame": 127,
+      "shot": 2,
+      "at": 4.233333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-142",
+      "frame": 142,
+      "shot": 2,
+      "at": 4.733333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "green-stamp",
+      "frame": 160,
+      "shot": 2,
+      "at": 5.333333333,
+      "file": "projects/perfect-streaks/audio/generated/green-stamp.wav",
+      "duration": 0.18,
+      "gainDb": -15,
+      "reason": "Marker contacts the calendar on green."
+    },
+    {
+      "name": "rain-bed",
+      "frame": 355,
+      "shot": 4,
+      "at": 11.833333333,
+      "file": "projects/perfect-streaks/audio/generated/rain.wav",
+      "duration": 3.5,
+      "gainDb": -22,
+      "reason": "Rain fades across the storm and blank-square shots, then ends."
+    },
+    {
+      "name": "thunder",
+      "frame": 364,
+      "shot": 4,
+      "at": 12.133333333,
+      "file": "projects/perfect-streaks/audio/generated/thunder.wav",
+      "duration": 2.1,
+      "gainDb": -18,
+      "reason": "Distant thunder follows the storm's visual arrival."
+    },
+    {
+      "name": "footstep-385",
+      "frame": 385,
+      "shot": 4,
+      "at": 12.833333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -22,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "roll-calendar",
+      "frame": 472,
+      "shot": 6,
+      "at": 15.733333333,
+      "file": "projects/perfect-streaks/audio/generated/paper-roll.wav",
+      "duration": 0.62,
+      "gainDb": -19,
+      "reason": "Rolled calendar remains in the visible hand; lowered for quiet narration."
+    },
+    {
+      "name": "footstep-490",
+      "frame": 490,
+      "shot": 6,
+      "at": 16.333333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-520",
+      "frame": 520,
+      "shot": 6,
+      "at": 17.333333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "transition-7",
+      "frame": 555,
+      "shot": 7,
+      "at": 18.5,
+      "file": "projects/perfect-streaks/audio/generated/transition.wav",
+      "duration": 0.34,
+      "gainDb": -22,
+      "reason": "Quiet air movement across the six-frame location/light transition."
+    },
+    {
+      "name": "footstep-570",
+      "frame": 570,
+      "shot": 7,
+      "at": 19.0,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-600",
+      "frame": 600,
+      "shot": 7,
+      "at": 20.0,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "transition-10",
+      "frame": 859,
+      "shot": 10,
+      "at": 28.633333333,
+      "file": "projects/perfect-streaks/audio/generated/transition.wav",
+      "duration": 0.34,
+      "gainDb": -22,
+      "reason": "Quiet air movement across the six-frame location/light transition."
+    },
+    {
+      "name": "footstep-874",
+      "frame": 874,
+      "shot": 10,
+      "at": 29.133333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-904",
+      "frame": 904,
+      "shot": 10,
+      "at": 30.133333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "brick-land",
+      "frame": 1123,
+      "shot": 12,
+      "at": 37.433333333,
+      "file": "projects/perfect-streaks/audio/generated/brick-thud.wav",
+      "duration": 0.34,
+      "gainDb": -15,
+      "reason": "Brick makes physical contact at frame 1123."
+    },
+    {
+      "name": "footstep-1253",
+      "frame": 1253,
+      "shot": 13,
+      "at": 41.766666667,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-1283",
+      "frame": 1283,
+      "shot": 13,
+      "at": 42.766666667,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "transition-14",
+      "frame": 1327,
+      "shot": 14,
+      "at": 44.233333333,
+      "file": "projects/perfect-streaks/audio/generated/transition.wav",
+      "duration": 0.34,
+      "gainDb": -22,
+      "reason": "Quiet air movement across the six-frame location/light transition."
+    },
+    {
+      "name": "shoes-set",
+      "frame": 1376,
+      "shot": 14,
+      "at": 45.866666667,
+      "file": "projects/perfect-streaks/audio/generated/shoe-set.wav",
+      "duration": 0.28,
+      "gainDb": -15,
+      "reason": "Trainers touch the mat at frame 1376."
+    },
+    {
+      "name": "footstep-1441",
+      "frame": 1441,
+      "shot": 15,
+      "at": 48.033333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-1474",
+      "frame": 1474,
+      "shot": 15,
+      "at": 49.133333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-1540",
+      "frame": 1540,
+      "shot": 15,
+      "at": 51.333333333,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-1583",
+      "frame": 1583,
+      "shot": 16,
+      "at": 52.766666667,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "footstep-1613",
+      "frame": 1613,
+      "shot": 16,
+      "at": 53.766666667,
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "gainDb": -19,
+      "reason": "Agreed planted-foot contact; a restrained subset of the cast's deterministic gait."
+    },
+    {
+      "name": "seven-green",
+      "frame": 1657,
+      "shot": 16,
+      "at": 55.233333333,
+      "file": "projects/perfect-streaks/audio/generated/green-stamp.wav",
+      "duration": 0.18,
+      "gainDb": -17,
+      "reason": "Restrained marker accent starts the seven later green squares."
+    },
+    {
+      "name": "transition-17",
+      "frame": 1713,
+      "shot": 17,
+      "at": 57.1,
+      "file": "projects/perfect-streaks/audio/generated/transition.wav",
+      "duration": 0.34,
+      "gainDb": -22,
+      "reason": "Quiet air movement across the six-frame location/light transition."
+    },
+    {
+      "name": "calendar-flat",
+      "frame": 1768,
+      "shot": 17,
+      "at": 58.933333333,
+      "file": "projects/perfect-streaks/audio/generated/paper-unroll.wav",
+      "duration": 0.71,
+      "gainDb": -22,
+      "reason": "Paper unrolls across the table; lowered for the quiet final word."
+    },
+    {
+      "name": "paperweight",
+      "frame": 1830,
+      "shot": 18,
+      "at": 61.0,
+      "file": "projects/perfect-streaks/audio/generated/paperweight-tap.wav",
+      "duration": 0.27,
+      "gainDb": -15,
+      "reason": "Brick contacts the calendar at frame 1830."
+    }
+  ],
+  "productionNotes": {
+    "timelineSha256": "902258495a7f4cc0a79ef8a4b1032a7044c06edb4d081b9325cc224a6d3ea4ee",
+    "musicGainPolicy": "Default -10 dB plus 3 dB = -7 dB; speech duck remains -7 dB.",
+    "sfxGainPolicy": "Default -9 dB minus 6 dB = -15 dB; distance and subtlety offsets reduce selected cues further.",
+    "provenance": "Original local numpy/scipy synthesis; no recordings, external assets, additional voices, or bridge score."
+  }
+}

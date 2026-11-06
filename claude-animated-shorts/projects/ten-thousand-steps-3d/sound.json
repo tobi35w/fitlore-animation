@@ -1,0 +1,7 @@
+{
+  "engine": "steps",
+  "targetLufs": -14,
+  "musicGainDb": 3,
+  "sfxGainDb": -6,
+  "duckDb": -6
+}

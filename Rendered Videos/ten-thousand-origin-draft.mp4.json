@@ -1,0 +1,20 @@
+{
+  "compositionId": "TenThousandOrigin",
+  "quality": "draft",
+  "output": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\ten-thousand-origin-draft.mp4",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "frames": 120,
+  "frameOffset": 0,
+  "completeExport": false,
+  "audio": true,
+  "secondsToRender": 28.406,
+  "browser": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "browserErrors": [],
+  "sourceProject": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts",
+  "projectSlug": "ten-thousand-origin",
+  "requiredPictureGate": false,
+  "requiredVisualReview": false,
+  "publish": true
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "sources": [
+    {
+      "pack": "nature-kit",
+      "page": "https://kenney.nl/assets/nature-kit",
+      "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+      "license": "CC0-1.0"
+    },
+    {
+      "pack": "fantasy-town-kit",
+      "page": "https://kenney.nl/assets/fantasy-town-kit",
+      "archiveSha256": "1a7530c09f4d2fa2cdee259876f089334f8b1f27fa86a0c4f54ef86cdd8676ef",
+      "license": "CC0-1.0"
+    }
+  ],
+  "files": [
+    {
+      "name": "canoe",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/canoe.glb",
+      "sourceSha256": "ad9c7a315f55accbce8d1ee3dc853f919f01f97ab4e3096bb235d1815aed6941",
+      "sha256": "ad9c7a315f55accbce8d1ee3dc853f919f01f97ab4e3096bb235d1815aed6941"
+    },
+    {
+      "name": "flower_purpleA",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/flower_purpleA.glb",
+      "sourceSha256": "f6fc34c96a03420a74fe36d4c2d0ec88f15204fcad99cd1416c3c4ecb22e48c4",
+      "sha256": "f6fc34c96a03420a74fe36d4c2d0ec88f15204fcad99cd1416c3c4ecb22e48c4"
+    },
+    {
+      "name": "flower_redA",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/flower_redA.glb",
+      "sourceSha256": "171930b7789ddbf735af3745576b5393750beb9133b9ff4a444bb6bb2986c020",
+      "sha256": "171930b7789ddbf735af3745576b5393750beb9133b9ff4a444bb6bb2986c020"
+    },
+    {
+      "name": "flower_yellowA",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/flower_yellowA.glb",
+      "sourceSha256": "8a3b08cd2ca411c21f9c581d5bda651d78b13c50cba45ad8fa0389398ead6d1d",
+      "sha256": "8a3b08cd2ca411c21f9c581d5bda651d78b13c50cba45ad8fa0389398ead6d1d"
+    },
+    {
+      "name": "grass",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/grass.glb",
+      "sourceSha256": "260e41d3e5f2472492ed7b475c5b92a30b13ce2bad408535b5ff50574d4575e7",
+      "sha256": "260e41d3e5f2472492ed7b475c5b92a30b13ce2bad408535b5ff50574d4575e7"
+    },
+    {
+      "name": "grass_large",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/grass_large.glb",
+      "sourceSha256": "af49a595624abca7249824eeefb944d4baf974abeeb5b16110d175da3563d6cd",
+      "sha256": "af49a595624abca7249824eeefb944d4baf974abeeb5b16110d175da3563d6cd"
+    },
+    {
+      "name": "lily_large",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/lily_large.glb",
+      "sourceSha256": "c8f7080df0ae3166e9d33f523b66360c2ac7556dff36cc9c8ee78b6a676c7db2",
+      "sha256": "c8f7080df0ae3166e9d33f523b66360c2ac7556dff36cc9c8ee78b6a676c7db2"
+    },
+    {
+      "name": "plant_bush",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/plant_bush.glb",
+      "sourceSha256": "ae7b1beb39e242b13f5f29e3ec23ef21034b814f82297b8aa00a9bf4e1b09590",
+      "sha256": "ae7b1beb39e242b13f5f29e3ec23ef21034b814f82297b8aa00a9bf4e1b09590"
+    },
+    {
+      "name": "plant_bushDetailed",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/plant_bushDetailed.glb",
+      "sourceSha256": "2e0487020d68ccf664435db9d829c78ae00e6d2785ee3ec10b9f89cc70a10406",
+      "sha256": "2e0487020d68ccf664435db9d829c78ae00e6d2785ee3ec10b9f89cc70a10406"
+    },
+    {
+      "name": "plant_bushLarge",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/plant_bushLarge.glb",
+      "sourceSha256": "10e1d9fbf29d96d1d1a56fb2ce25ae66537505101759229afe01ae22c6c45e02",
+      "sha256": "94a346f09e7f9bb066c00b9ff6fd054aa1830b1e266cc2c956728421ecf3e139"
+    },
+    {
+      "name": "tree_cone",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/tree_cone.glb",
+      "sourceSha256": "90be4d214ee2cbf79d317677cb87fc11dac9873b73e446b75e8c12825a374272",
+      "sha256": "90be4d214ee2cbf79d317677cb87fc11dac9873b73e446b75e8c12825a374272"
+    },
+    {
+      "name": "tree_default",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/tree_default.glb",
+      "sourceSha256": "562d29638c902de3c7bee465d3a53bb77117efbc392ae04ed894faf6b5dc691d",
+      "sha256": "562d29638c902de3c7bee465d3a53bb77117efbc392ae04ed894faf6b5dc691d"
+    },
+    {
+      "name": "tree_detailed",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/tree_detailed.glb",
+      "sourceSha256": "c041daf2f0fb1d49e4325227cbcd58667adbe51e9b55e8c1f0a94b74cc521b3b",
+      "sha256": "c041daf2f0fb1d49e4325227cbcd58667adbe51e9b55e8c1f0a94b74cc521b3b"
+    },
+    {
+      "name": "tree_fat",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/tree_fat.glb",
+      "sourceSha256": "84b262c5dda3a91ac6c95f9d8b23a0ebbb1951d678c0e1375d3e32623cc43ee2",
+      "sha256": "84b262c5dda3a91ac6c95f9d8b23a0ebbb1951d678c0e1375d3e32623cc43ee2"
+    },
+    {
+      "name": "tree_oak",
+      "pack": "nature-kit",
+      "archivePath": "Models/GLTF format/tree_oak.glb",
+      "sourceSha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "sha256": "31729107bfd61183e794a3f2d9d4dd69420a25cf76cf55fe4164a635587e07c5"
+    },
+    {
+      "name": "banner-green",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/banner-green.glb",
+      "sourceSha256": "5c9a1bb7d564270306fe438fd4a141fc6de0d102b355bbd1d2710249c489868a",
+      "sha256": "6881c22a51a1c3637217b4685da256f0d806bf370fc3612398f953ba09900485"
+    },
+    {
+      "name": "banner-red",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/banner-red.glb",
+      "sourceSha256": "4e4a83de16e5979d2b34bb206d3bf3703a9039711bc658b37e3738d43090703d",
+      "sha256": "477086cd93a2e3f5afe5b8545e072af7b840b94c47b31772b6a78f2a721e53fd"
+    },
+    {
+      "name": "cart",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/cart.glb",
+      "sourceSha256": "63503cd0a7398310e01aabc8e3663f711a7517394d23d179d0695157fee99d40",
+      "sha256": "fef4185afff6bddbdb684602665405b476a8a725f44f17740653d830f850dbae"
+    },
+    {
+      "name": "hedge",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/hedge.glb",
+      "sourceSha256": "12001b57dbd3ccaddd217c49e541620137d3e835d873ce0bcedc0e01180a08a9",
+      "sha256": "30f65cba55144bcdc96191508503c4447e8b7bb4fa93a3ca89608bec4df72a30"
+    },
+    {
+      "name": "lantern",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/lantern.glb",
+      "sourceSha256": "f270637e3083d6e84a30626ee05df2b09597a642985a7f5c3e4ab5bb1c7a8d55",
+      "sha256": "4a96bde7c273d012db3e07ea1091bd4fc0d95be37aa076fe708fb888ac96e23c"
+    },
+    {
+      "name": "stall-bench",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/stall-bench.glb",
+      "sourceSha256": "5a4b379488241394916991c4b482ec4863c05bb548ca8751f5c3935f1f6e5b9c",
+      "sha256": "cbdca958a736fef839ed1b335a63679b86cf530c6aa41c2d7a9811c629ab68c7"
+    },
+    {
+      "name": "stall-green",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/stall-green.glb",
+      "sourceSha256": "2da2f7b31cde5d943d7c08c457bbb39797ef0a607921fde0b8455f338ce40205",
+      "sha256": "0611bbf54ec82e62af02209373083d04bad708887c5f8eb683cd3cba37e76198"
+    },
+    {
+      "name": "stall-red",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/stall-red.glb",
+      "sourceSha256": "aa20a630f417032c46aaefbc779fd2b3355b451bf05d31acc36fd664146866b1",
+      "sha256": "1d558b029877451f560fd058dabacb96ef07ec89cdd9a66895dab924221ccaa6"
+    },
+    {
+      "name": "tree-high-round",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/tree-high-round.glb",
+      "sourceSha256": "7f372e338cbf5514a41e8d2afda81acd67277a4c5ad4e6e35a9acfa4a6e3bc4b",
+      "sha256": "455b9a6cd1660e2127eac2406330f61d6dc47122121b65732d3ac1ef9d7e13e3"
+    },
+    {
+      "name": "tree",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/tree.glb",
+      "sourceSha256": "e8d81b97297de62699b92559cee7b247da84b1815df2515e42fd5a318a30b8d7",
+      "sha256": "820efa1624d1af3fdbd2d286041c0f0bff66aca70df72d25d027d1c77be47ceb"
+    },
+    {
+      "name": "windmill",
+      "pack": "fantasy-town-kit",
+      "archivePath": "Models/GLB format/windmill.glb",
+      "sourceSha256": "72562df164f5fd36670521462da8f4161cf2c4c1c889799443f0fb44532ad5db",
+      "sha256": "310d4a631342c81cd9609f3e46d07a44b1ba0a060413057b12d2323c4ca7ed8a"
+    }
+  ]
+}

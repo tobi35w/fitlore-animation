@@ -1,0 +1,53 @@
+{
+  "timelineSha256": "36e61ba9ebef95abe4b1d0c55fe01df9521504a47e90373480f312ee853cbb64",
+  "voiceLufsStereo": -18.43057880316532,
+  "scoreLufsBeforeMixer": -16.756087594102922,
+  "effects": {
+    "coffee-clatter": {
+      "file": "projects/fourteen-mondays/audio/generated/coffee-clatter.wav",
+      "duration": 0.45,
+      "sourceLufs": -13.430578803165353,
+      "sourceMomentaryMaxLufs": -13.430578803165353,
+      "sourcePeakDbfs": -5.4292028520974975
+    },
+    "marker-tick": {
+      "file": "projects/fourteen-mondays/audio/generated/marker-tick.wav",
+      "duration": 0.22,
+      "sourceLufs": -14.4305788031653,
+      "sourceMomentaryMaxLufs": -14.4305788031653,
+      "sourcePeakDbfs": -2.242254323956727
+    },
+    "engine-cough": {
+      "file": "projects/fourteen-mondays/audio/generated/engine-cough.wav",
+      "duration": 0.85,
+      "sourceLufs": -14.482288295007272,
+      "sourceMomentaryMaxLufs": -13.430578803165286,
+      "sourcePeakDbfs": -6.2272958206572895
+    },
+    "rug-drop": {
+      "file": "projects/fourteen-mondays/audio/generated/rug-drop.wav",
+      "duration": 0.32,
+      "sourceLufs": -16.877815392736125,
+      "sourceMomentaryMaxLufs": -16.877815392736125,
+      "sourcePeakDbfs": -1.7237229523256667
+    },
+    "pushup-thud": {
+      "file": "projects/fourteen-mondays/audio/generated/pushup-thud.wav",
+      "duration": 0.24,
+      "sourceLufs": -18.692650670460374,
+      "sourceMomentaryMaxLufs": -18.692650670460374,
+      "sourcePeakDbfs": -1.7237229523256667
+    },
+    "footstep": {
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "sourceLufs": -17.82428402975314,
+      "sourceMomentaryMaxLufs": -17.82428402975314,
+      "sourcePeakDbfs": -1.7237229523256667
+    }
+  },
+  "cueCount": 18,
+  "durationSeconds": 66.03333333333333,
+  "samples": 3169600,
+  "sampleRate": 48000
+}

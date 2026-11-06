@@ -1,0 +1,21 @@
+{
+  "id": "TenThousandSteps",
+  "slug": "ten-thousand-steps",
+  "fps": 30,
+  "width": 1024,
+  "height": 1536,
+  "durationInFrames": 3745,
+  "audioFile": "projects/ten-thousand-steps/audio/mix.wav",
+  "voiceProvider": "elevenlabs",
+  "voice": "George",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "voiceModel": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.55,
+    "similarity_boost": 0.75,
+    "style": 0.15,
+    "use_speaker_boost": true,
+    "speed": 1.08
+  },
+  "setupTest": false
+}

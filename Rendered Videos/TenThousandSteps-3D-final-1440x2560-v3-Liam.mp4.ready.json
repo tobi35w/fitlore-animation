@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "complete": true,
+  "filename": "TenThousandSteps-3D-final-1440x2560-v3-Liam.mp4",
+  "size": 105836153,
+  "sha256": "e740b25f0448c1fc0a027b1985bd4003d37248fbfa3fd6eb31c737ef16e20ffe",
+  "publish": true,
+  "source": "blur-publisher-local-validation",
+  "validation": {
+    "duration": 63.133333,
+    "width": 1440,
+    "height": 2560,
+    "codec": "h264",
+    "pixel_format": "yuvj420p",
+    "rotation": 0,
+    "audio": "aac"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "shots": [
+    {
+      "id": 1,
+      "a": 0,
+      "b": 110,
+      "title": "Midnight pacing",
+      "words": "Marcus paced circles around his coffee table at midnight,"
+    },
+    {
+      "id": 2,
+      "a": 110,
+      "b": 200,
+      "title": "Desperate calculation",
+      "words": "desperate for twenty-six hundred more steps."
+    },
+    {
+      "id": 3,
+      "a": 200,
+      "b": 290,
+      "title": "Watch red ring",
+      "words": "His smart watch flashed a mocking red ring."
+    },
+    {
+      "id": 4,
+      "a": 290,
+      "b": 395,
+      "title": "Only ten thousand saves",
+      "words": "Seven thousand was not enough; only the holy ten thousand could save him."
+    },
+    {
+      "id": 5,
+      "a": 395,
+      "b": 490,
+      "title": "Marching past cat",
+      "words": "He marched past his sleeping cat."
+    },
+    {
+      "id": 6,
+      "a": 490,
+      "b": 595,
+      "title": "Toothbrush high knees",
+      "words": "He did frantic high knees while brushing his teeth."
+    },
+    {
+      "id": 7,
+      "a": 595,
+      "b": 705,
+      "title": "Midnight toe stub collapse",
+      "words": "At midnight, Marcus stubbed his toe and collapsed onto the rug."
+    },
+    {
+      "id": 8,
+      "a": 705,
+      "b": 815,
+      "title": "Plus two steps registered",
+      "words": "Luckily, his tracker registered the crash as two extra steps."
+    },
+    {
+      "id": 9,
+      "a": 815,
+      "b": 925,
+      "title": "Clock salesman reveal",
+      "words": "Unluckily, the entire target was invented by a clock salesman."
+    },
+    {
+      "id": 10,
+      "a": 925,
+      "b": 1030,
+      "title": "Not a medical prescription",
+      "words": "You see, ten thousand was never a medical prescription."
+    },
+    {
+      "id": 11,
+      "a": 1030,
+      "b": 1145,
+      "title": "Manpo-kei 1965 launch",
+      "words": "In nineteen sixty-five, a Japanese company launched the Manpo-kei pedometer."
+    },
+    {
+      "id": 12,
+      "a": 1145,
+      "b": 1260,
+      "title": "Walking kanji character",
+      "words": "They chose ten thousand because the Japanese character looks like a walking person."
+    },
+    {
+      "id": 13,
+      "a": 1260,
+      "b": 1365,
+      "title": "Advertising gimmick",
+      "words": "It was an advertising gimmick, not biology."
+    },
+    {
+      "id": 14,
+      "a": 1365,
+      "b": 1475,
+      "title": "Harvard longevity curve",
+      "words": "Harvard studies show longevity benefits level off around seventy-five hundred steps."
+    },
+    {
+      "id": 15,
+      "a": 1475,
+      "b": 1585,
+      "title": "Stealing your sleep",
+      "words": "Pushing past that doesn't add years; it just steals your sleep."
+    },
+    {
+      "id": 16,
+      "a": 1585,
+      "b": 1695,
+      "title": "Silencing the watch",
+      "words": "So Marcus silenced his watch,"
+    },
+    {
+      "id": 17,
+      "a": 1695,
+      "b": 1805,
+      "title": "Smiling at cat",
+      "words": "smiled at his cat,"
+    },
+    {
+      "id": 18,
+      "a": 1805,
+      "b": 1915,
+      "title": "Four calm steps",
+      "words": "and took four steps"
+    },
+    {
+      "id": 19,
+      "a": 1915,
+      "b": 2055,
+      "title": "Into bed callback",
+      "words": "into bed."
+    }
+  ],
+  "planned": [],
+  "xfade": [
+    [
+      1025,
+      1035
+    ],
+    [
+      1360,
+      1370
+    ],
+    [
+      1800,
+      1810
+    ],
+    [
+      1910,
+      1920
+    ]
+  ]
+}

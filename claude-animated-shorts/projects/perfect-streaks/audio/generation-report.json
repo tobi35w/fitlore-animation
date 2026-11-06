@@ -1,0 +1,88 @@
+{
+  "timelineSha256": "902258495a7f4cc0a79ef8a4b1032a7044c06edb4d081b9325cc224a6d3ea4ee",
+  "voiceLufsStereo": -20.35294723525484,
+  "scoreLufsBeforeMixer": -17.124790059081665,
+  "effects": {
+    "paper-flutter": {
+      "file": "projects/perfect-streaks/audio/generated/paper-flutter.wav",
+      "duration": 0.38,
+      "sourceLufs": -16.352947235254803,
+      "sourceMomentaryMaxLufs": -16.352947235254803,
+      "sourcePeakDbfs": -3.2669014574119926
+    },
+    "paper-roll": {
+      "file": "projects/perfect-streaks/audio/generated/paper-roll.wav",
+      "duration": 0.62,
+      "sourceLufs": -16.712029992303314,
+      "sourceMomentaryMaxLufs": -16.35294723525485,
+      "sourcePeakDbfs": -5.181246205362674
+    },
+    "paper-unroll": {
+      "file": "projects/perfect-streaks/audio/generated/paper-unroll.wav",
+      "duration": 0.71,
+      "sourceLufs": -17.133668117375944,
+      "sourceMomentaryMaxLufs": -16.352947235254852,
+      "sourcePeakDbfs": -6.318091794729208
+    },
+    "brick-thud": {
+      "file": "projects/perfect-streaks/audio/generated/brick-thud.wav",
+      "duration": 0.34,
+      "sourceLufs": -20.503696459845795,
+      "sourceMomentaryMaxLufs": -20.503696459845795,
+      "sourcePeakDbfs": -1.7237229523256667
+    },
+    "paperweight-tap": {
+      "file": "projects/perfect-streaks/audio/generated/paperweight-tap.wav",
+      "duration": 0.27,
+      "sourceLufs": -19.881115039587208,
+      "sourceMomentaryMaxLufs": -19.881115039587208,
+      "sourcePeakDbfs": -1.7237229523256667
+    },
+    "shoe-set": {
+      "file": "projects/perfect-streaks/audio/generated/shoe-set.wav",
+      "duration": 0.28,
+      "sourceLufs": -18.34065019985016,
+      "sourceMomentaryMaxLufs": -18.34065019985016,
+      "sourcePeakDbfs": -1.7237229523256656
+    },
+    "footstep": {
+      "file": "projects/perfect-streaks/audio/generated/footstep.wav",
+      "duration": 0.19,
+      "sourceLufs": -18.22979452208282,
+      "sourceMomentaryMaxLufs": -18.22979452208282,
+      "sourcePeakDbfs": -1.7237229523256667
+    },
+    "green-stamp": {
+      "file": "projects/perfect-streaks/audio/generated/green-stamp.wav",
+      "duration": 0.18,
+      "sourceLufs": -16.352947235254824,
+      "sourceMomentaryMaxLufs": -16.352947235254824,
+      "sourcePeakDbfs": -3.6775468139019587
+    },
+    "thunder": {
+      "file": "projects/perfect-streaks/audio/generated/thunder.wav",
+      "duration": 2.1,
+      "sourceLufs": -21.52419885686267,
+      "sourceMomentaryMaxLufs": -16.352947235254867,
+      "sourcePeakDbfs": -4.902402845921055
+    },
+    "rain": {
+      "file": "projects/perfect-streaks/audio/generated/rain.wav",
+      "duration": 3.5,
+      "sourceLufs": -17.352947235254923,
+      "sourceMomentaryMaxLufs": -16.455627688348468,
+      "sourcePeakDbfs": -9.55971166743591
+    },
+    "transition": {
+      "file": "projects/perfect-streaks/audio/generated/transition.wav",
+      "duration": 0.34,
+      "sourceLufs": -17.352947235254828,
+      "sourceMomentaryMaxLufs": -17.352947235254828,
+      "sourcePeakDbfs": -6.994085766935987
+    }
+  },
+  "cueCount": 31,
+  "durationSeconds": 62.7,
+  "samples": 3009600,
+  "sampleRate": 48000
+}

@@ -1,0 +1,14 @@
+{
+  "id": "FourteenMondays",
+  "slug": "fourteen-mondays",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1992,
+  "audioFile": "projects/fourteen-mondays/audio/mix.wav",
+  "voiceProvider": "kokoro",
+  "voice": "Adam US",
+  "voiceId": "am_adam",
+  "speed": 1,
+  "setupTest": false
+}

@@ -1,0 +1,99 @@
+=== PASTE INTO CHATGPT (WORK + GPT-6 ASTRA) ===
+
+TASK — generate 15 scene images for a faceless YouTube video called "I Tried Walking 10,000 Steps a Day  Did It Actually Change Anything?".
+
+IMAGE MODEL: ChatGPT Images 2.5. Every scene below is ONE still image. Do not produce video, clips, animation, GIFs or motion of any kind. Do not produce a contact sheet, a collage, a grid, a mood board or a storyboard page — I need one separate image file per scene.
+
+OUTPUT SIZE: 1024 x 1536 (portrait) for every single image. Never square, never mixed. Compose for a phone screen. Keep the subject central and leave headroom top and bottom for captions.
+
+HOW TO RUN THIS
+1. Work through the scenes below in order, one at a time, from 01 to 15.
+2. Generate each scene as its own separate image.
+3. After each image, check it against three things before you move on: the visual style block below, the previous scene, and the character description if there is one. If the art style, palette, lighting, character or aspect ratio has drifted, regenerate that scene before continuing — do not carry the drift forward.
+4. Save each image with its scene number as the filename: 01.png, 02.png, 03.png … 15.png. The number must be at the START of the filename and nothing else should come before it. Do not use descriptive filenames.
+5. When all 15 are done, list the filenames so I can check none are missing.
+
+VISUAL STYLE — applies to every image without exception:
+Simplified 2D vector animation with minimalist character design and uniform black outlines, rendered in a warm palette dominated by burnt orange and amber, balanced by desaturated terracotta, mustard yellow, and warm brown backdrops instead of the typical cool blue scheme. Lighting is completely flat and non-directional, relying on solid color fills with no cast shadows, specular highlights, or warmth gradients beyond the base palette. Framing uses an orthographic 2D perspective with edge-to-edge infinite depth of field and zero optical lens distortion. Shot scale ranges wide to medium-full, with subjects placed centrally or along the lower third beneath generous headroom reserved for captions. Texture is crisp and digital, free of film grain, vignetting, or cinematic color grading. Thin red measurement lines appear as functional graphic overlays marking distances, counts, or metrics. The edit rhythm is steady and moderate, built from held static compositions and clean spatial cuts between distinct environments.
+
+RECURRING CHARACTER — identical in every image they appear in:
+Marcus is a stocky man in his mid-thirties with warm brown skin, short tightly-coiled black hair, and a round, friendly face with a neat short beard. He wears a heather-gray crewneck t-shirt, dark olive joggers, and bright orange running shoes with thick white soles. He has a simple black fitness watch on his left wrist and carries a navy drawstring bag across his body in some scenes. His build is average-to-soft, not athletic, with slightly rounded shoulders — a visibly ordinary, relatable body type. His expression is consistently earnest and a little self-conscious, drawn with simple bold black outlines and flat warm-toned shading matching the vector style.
+
+Lock this description now. Do not vary the face, hair, build, wardrobe or colours between scenes for any reason.
+
+RULES FOR EVERY SCENE
+- One still image per scene. 15 images, 15 files, no exceptions.
+- No on-screen text, captions, titles, subtitles, logos, watermarks or signatures anywhere in any image.
+- Keep my scene numbering exactly. One image per number, in order, none merged, none skipped, none added.
+- Do not "improve" the brief by combining scenes or by making a summary image.
+- If a scene prompt would be blocked, tell me which number and why, and keep going with the rest.
+
+=== SCENES ===
+
+SCENE 01 — wide establishing shot
+Filename: 01.png
+Wide orthographic vector illustration of a stocky bearded man in a gray t-shirt and orange sneakers standing at the center of an empty amber-lit suburban street at dawn, a thin red dotted line trailing behind his feet like a measured path. Flat warm palette of burnt orange, mustard, and terracotta, uniform black outlines, no shadows, crisp digital edges, generous headroom above.
+
+SCENE 02 — tight close-up
+Filename: 02.png
+Tight close-up vector illustration of a black fitness watch face on a wrist, glowing numbers reading a step count, rendered in flat amber and deep brown tones with a thin red measurement line curling around the watch band. Bold black outlines, no gloss or highlight, flat even lighting, extreme close framing with soft blur at the edges, warm desaturated background.
+
+SCENE 03 — wide establishing shot
+Filename: 03.png
+Wide establishing vector shot of a warm amber suburban neighborhood at early morning, rows of simple flat-shaded houses in terracotta and mustard, a lone orange front door open with faint morning light. Empty sidewalk stretching into the frame with a thin red dotted measurement line along the pavement. Flat lighting, crisp vector outlines, deep focus, generous sky headroom for captions.
+
+SCENE 04 — medium shot
+Filename: 04.png
+Medium vector shot of Marcus, a stocky bearded man in a heather-gray t-shirt and orange sneakers, standing on his porch lacing one shoe, navy drawstring bag over his shoulder. Warm flat terracotta house wall behind him, a thin red step-count line hovering near his feet. Uniform black outlines, flat non-directional lighting, centered composition, headroom above for captions.
+
+SCENE 05 — macro detail
+Filename: 05.png
+Macro vector close-up of a smartphone screen lying on a warm wooden kitchen counter, displaying a flat-style step counter graphic with a thin red target line and a small number near zero. Amber countertop, mustard-toned cabinet blur behind, flat even lighting, crisp digital outlines, extremely shallow focus isolating the phone screen as the sole sharp element.
+
+SCENE 06 — wide shot
+Filename: 06.png
+Wide vector shot of Marcus walking across a warm amber office parking lot toward a terracotta building, a thin red dotted path trailing behind his orange sneakers across the asphalt. Flat mustard sky, simplified parked cars in muted brown tones, uniform black outlines, orthographic deep focus, subject centered beneath wide open headroom.
+
+SCENE 07 — tight close-up
+Filename: 07.png
+Tight close-up vector illustration of Marcus's face, bearded and round, wincing slightly while gripping his knee, warm brown skin rendered in flat amber shading. Background a soft blurred wash of deep rust. Bold black outlines, no shadow or highlight, flat lighting, expressive simple linework, close framing cropped at the shoulders with headroom above.
+
+SCENE 08 — medium close-up
+Filename: 08.png
+Medium close-up vector shot of Marcus sitting on a park bench in warm evening light, elbows on knees, looking thoughtfully at his watch, navy bag beside him. Flat terracotta park background with simplified amber trees, thin red step-line graphic faintly overlaid near his wrist. Uniform black outlines, flat lighting, centered composition, calm expression, headroom preserved above.
+
+SCENE 09 — wide establishing shot
+Filename: 09.png
+Wide vector establishing shot of a flat-shaded warm orange city park at midday, several simplified figures of different ages walking along a winding path marked with thin red distance lines of varying lengths. Mustard grass, deep rust trees, flat even lighting, orthographic deep focus, figures small and centered beneath wide open sky headroom.
+
+SCENE 10 — medium shot
+Filename: 10.png
+Medium vector shot of Marcus holding hands with a small child, both walking along a warm amber sidewalk past terracotta houses, a thin red step-count line trailing behind their shoes. Flat mustard morning sky, crisp black outlines, flat non-directional lighting, deep focus, subjects centered with generous headroom above for captions, gentle warm color grading.
+
+SCENE 11 — macro detail
+Filename: 11.png
+Macro vector close-up of a pair of orange running shoes with thick white soles resting on a warm terracotta doormat, slightly scuffed, a thin red measurement line curling across the floor beside them. Flat amber lighting, crisp black outlines, shallow focus with soft blurred brown wall behind, intimate framing, no people visible.
+
+SCENE 12 — wide shot
+Filename: 12.png
+Wide vector shot of Marcus standing triumphantly atop a gentle hill overlooking a warm amber town at sunset, arms slightly raised, a long thin red measurement line stretching from the base of the hill up to his feet representing total distance walked. Flat mustard and rust sky, crisp outlines, deep orthographic focus, centered figure with vast open headroom above.
+
+SCENE 13 — tight close-up
+Filename: 13.png
+Tight close-up vector shot of Marcus's wrist raised toward the viewer, fitness watch displaying a glowing final step count, his face softly visible behind it with a calm satisfied expression. Warm flat amber and terracotta tones, thin red line graphic circling the watch face, bold black outlines, flat lighting, shallow close framing with headroom above.
+
+SCENE 14 — macro detail
+Filename: 14.png
+Macro vector close-up of Marcus's face cropped tightly around his mouth and eyes, a small genuine smile forming, warm brown skin in flat amber shading, faint laugh lines drawn in simple black strokes. Deep rust blurred background, uniform black outlines, flat non-directional lighting, extremely shallow focus, intimate warm framing with slight headroom above.
+
+SCENE 15 — wide shot
+Filename: 15.png
+Wide calm vector shot of Marcus walking alone down a quiet warm amber street at golden hour, relaxed posture, navy bag over shoulder, a soft thin red path line fading gently behind him into the distance. Flat terracotta houses lining the street, mustard sky, crisp black outlines, deep uncluttered focus, centered composition with generous open headroom for an outro card.
+
+=== END ===
+Generate all 15 scenes as separate still images at 1024 x 1536 (portrait), saved as 01.png through 15.png. Start with scene 01 now.
+
+
+=== NARRATION SCRIPT ===
+
+Ten thousand steps a day. Everyone says it's the magic number. So I actually tried it for thirty days straight, and what happened surprised me. Thirty days. Seven thousand steps. Could that actually change anything, or is the whole number just a myth someone made up decades ago? It started on a quiet Monday morning. Same street, same sleepy neighborhood, same man who hadn't walked anywhere further than the fridge in years. Meet Marcus. Desk job, two kids, and a doctor who gently suggested he move more. He figured ten thousand steps sounded simple enough. Inside his kitchen, a simple app glowed on his phone screen. A thin red line marking his goal, and a counter stuck stubbornly near zero. Day one felt easy. He parked farther from the office, took the stairs, and by lunchtime he'd already doubled his usual daily movement. But by day five, his knees ached and his schedule collapsed. Not everyone can just add two extra hours of walking to a packed day. So he paused, rethought the plan, and realized the real goal wasn't a perfect number. It was just moving a little more than yesterday. Researchers say the magic number varies by age, health, and lifestyle. For some, even four thousand steps brings real, measurable benefits. He started walking his daughter to school instead of driving. Small, repeatable, woven into a day that already existed. That part actually stuck. A worn pair of orange sneakers by the door became proof. Not of perfection, but of a habit quietly taking shape, one day at a time. By day thirty, Marcus hadn't hit ten thousand steps every single day. But he'd walked more than he had in three years combined. He looked at the final number on his watch, and for the first time, the count didn't feel like pressure. It felt like evidence. A small, quiet smile. Not triumphant, just relieved. Proof that showing up imperfectly, again and again, was enough to matter. The number was never really the point. The habit was. So forget the perfect target, and just take the next step.

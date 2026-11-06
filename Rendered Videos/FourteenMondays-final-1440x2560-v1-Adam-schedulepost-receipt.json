@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "verified_at": "2026-11-04T22:28:40.000000+00:00",
+  "provider": "SchedulePost",
+  "status": "scheduled",
+  "delivery_complete": false,
+  "title": "\"I'll Start Monday\": The 14-Week Trap",
+  "video": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\FourteenMondays-final-1440x2560-v1-Adam.mp4",
+  "video_sha256": "a384ee4ef42549e8959746ffd6b62a8162e42c3ea4e4223d9543a0adb57d85ce",
+  "local_video_id": 5,
+  "operation_id": 4,
+  "idempotency_key": "1ef167b9-5f06-5a48-b0d5-ade27c0242ab",
+  "schedulepost_id": "2dbe7757-80d4-4875-a2b7-f4f258c4093a",
+  "scheduled_for_utc": "2026-11-05T18:30:00Z",
+  "scheduled_for_local": "2026-11-05T19:30:00+01:00",
+  "timezone": "Africa/Lagos",
+  "platforms": [
+    "youtube"
+  ],
+  "connection_ids": [
+    "921a9763-4490-4e8c-bbf1-5bd88cb30cd1"
+  ],
+  "youtube_account": "FitLore",
+  "youtube_privacy": "public",
+  "youtube_description_verified": true,
+  "remote_post": {
+    "id": "2dbe7757-80d4-4875-a2b7-f4f258c4093a",
+    "caption": "Waiting for the perfect Monday to start? Here is why messy action beats a clean slate every time. An original FitLore story.",
+    "status": "scheduled",
+    "scheduled_for": "2026-11-05T18:30:00.000Z",
+    "youtube_title": "\"I'll Start Monday\": The 14-Week Trap",
+    "platforms": [
+      "youtube"
+    ],
+    "connection_ids": [
+      "921a9763-4490-4e8c-bbf1-5bd88cb30cd1"
+    ],
+    "youtube_privacy": "public",
+    "created_at": "2026-11-04T22:23:13.403Z"
+  },
+  "platform_results": [],
+  "published_urls": [],
+  "live_configuration": {
+    "mode": "schedule",
+    "dry_run": false,
+    "auto_publish": true
+  }
+}

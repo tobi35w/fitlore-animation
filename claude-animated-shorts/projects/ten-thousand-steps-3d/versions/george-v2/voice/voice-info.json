@@ -1,0 +1,26 @@
+{
+  "provider": "elevenlabs",
+  "voice": "George",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_multilingual_v2",
+  "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.75,
+    "style": 0.15,
+    "use_speaker_boost": true,
+    "speed": 1.2
+  },
+  "durationSeconds": 63.13333333333333,
+  "sourceDurationSeconds": 63.065417,
+  "sampleRate": 48000,
+  "channels": 1,
+  "wordCount": 222,
+  "cached": false,
+  "generatedAt": "2026-11-02T11:16:20.979Z",
+  "requestId": "sPDV4WwR2HBIMeyb6luL",
+  "sourceFingerprint": "74ffc91ead7a9ecc14afb1283f62246132df353d4657ee53d7503916642c9e29",
+  "alignmentMethod": "ElevenLabs character timestamps; uniform +2-frame onset shift; source preserved.",
+  "scriptPath": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts\\projects\\ten-thousand-steps-3d\\narration.txt",
+  "scriptSha256": "c5f10a2561339cdc66cad7a61f74ed5475d54ba14cd1639a7ccfa9b4fe3301c2",
+  "timingAdjustmentFrames": 2
+}

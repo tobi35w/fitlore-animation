@@ -1,0 +1,196 @@
+{
+  "targetLufs": -14,
+  "music": {
+    "enabled": true,
+    "bpm": 100,
+    "file": "projects/fourteen-mondays/audio/generated/original-score.wav",
+    "gainDb": -7,
+    "duckDb": -7
+  },
+  "sfx": [
+    {
+      "name": "footstep-185",
+      "frame": 185,
+      "shot": 3,
+      "at": 6.166666667,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-201",
+      "frame": 201,
+      "shot": 3,
+      "at": 6.7,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-217",
+      "frame": 217,
+      "shot": 3,
+      "at": 7.233333333,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-233",
+      "frame": 233,
+      "shot": 3,
+      "at": 7.766666667,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-420",
+      "frame": 420,
+      "shot": 6,
+      "at": 14.0,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-436",
+      "frame": 436,
+      "shot": 6,
+      "at": 14.533333333,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-452",
+      "frame": 452,
+      "shot": 6,
+      "at": 15.066666667,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "coffee-spill",
+      "frame": 490,
+      "shot": 7,
+      "at": 16.333333333,
+      "file": "projects/fourteen-mondays/audio/generated/coffee-clatter.wav",
+      "duration": 0.45,
+      "gainDb": -16,
+      "reason": "Mug tips on Monday morning."
+    },
+    {
+      "name": "footstep-740",
+      "frame": 740,
+      "shot": 10,
+      "at": 24.666666667,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-756",
+      "frame": 756,
+      "shot": 10,
+      "at": 25.2,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-772",
+      "frame": 772,
+      "shot": 10,
+      "at": 25.733333333,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-788",
+      "frame": 788,
+      "shot": 10,
+      "at": 26.266666667,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-804",
+      "frame": 804,
+      "shot": 10,
+      "at": 26.8,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "footstep-820",
+      "frame": 820,
+      "shot": 10,
+      "at": 27.333333333,
+      "file": "projects/fourteen-mondays/audio/generated/footstep.wav",
+      "duration": 0.18,
+      "gainDb": -20,
+      "reason": "Planted gait contact."
+    },
+    {
+      "name": "engine-puff",
+      "frame": 1115,
+      "shot": 13,
+      "at": 37.166666667,
+      "file": "projects/fourteen-mondays/audio/generated/engine-cough.wav",
+      "duration": 0.85,
+      "gainDb": -15,
+      "reason": "Cold engine rumbles to life."
+    },
+    {
+      "name": "rug-drop",
+      "frame": 1675,
+      "shot": 19,
+      "at": 55.833333333,
+      "file": "projects/fourteen-mondays/audio/generated/rug-drop.wav",
+      "duration": 0.32,
+      "gainDb": -15,
+      "reason": "Marcus drops onto living room rug."
+    },
+    {
+      "name": "pushup-rep",
+      "frame": 1750,
+      "shot": 20,
+      "at": 58.333333333,
+      "file": "projects/fourteen-mondays/audio/generated/pushup-thud.wav",
+      "duration": 0.24,
+      "gainDb": -16,
+      "reason": "Hand palm contacts floor on pushup."
+    },
+    {
+      "name": "tally-tick",
+      "frame": 1930,
+      "shot": 22,
+      "at": 64.333333333,
+      "file": "projects/fourteen-mondays/audio/generated/marker-tick.wav",
+      "duration": 0.22,
+      "gainDb": -15,
+      "reason": "Marker records Thursday completion."
+    }
+  ],
+  "productionNotes": {
+    "timelineSha256": "36e61ba9ebef95abe4b1d0c55fe01df9521504a47e90373480f312ee853cbb64",
+    "provenance": "Original local numpy/scipy synthesis; no recordings or external assets."
+  }
+}

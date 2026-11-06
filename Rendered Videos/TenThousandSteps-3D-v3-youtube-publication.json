@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-11-02T18:09:10.200152+00:00",
+  "video": "TenThousandSteps-3D-final-1440x2560-v3-Liam.mp4",
+  "file_sha256": "e740b25f0448c1fc0a027b1985bd4003d37248fbfa3fd6eb31c737ef16e20ffe",
+  "platform": "youtube",
+  "account": "FitLore",
+  "title": "He Chased 10,000 Steps... and Missed What Mattered",
+  "youtube_url": "https://www.youtube.com/shorts/J99Ot6TUvbo",
+  "schedulepost_id": "17d26e0f-84bb-44a5-a8c4-668ee951720b",
+  "delivery_complete": true,
+  "youtube_status": "PUBLISHED",
+  "tiktok_status": "NOT_SELECTED",
+  "automatic_publishing_enabled": false,
+  "youtube_oembed_status": 200,
+  "youtube_oembed": {
+    "title": "He Chased 10,000 Steps... and Missed What Mattered",
+    "author_name": "FitLore",
+    "author_url": "https://www.youtube.com/@fitlore-z4n"
+  }
+}

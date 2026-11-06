@@ -1,0 +1,450 @@
+{
+  "status": "objective_checks_pass",
+  "checkedAt": "2026-11-02T20:29:41.237164+00:00",
+  "reviewer": "He-MAN",
+  "subjectiveListening": "approved by user for these exact mix bytes; see voice/listening-review.json",
+  "scope": "Sample identity, script/caption/character-alignment mapping, planned pauses, cue frames, duration, format and loudness; no listening or independent transcription claimed.",
+  "mixPath": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts\\projects\\perfect-streaks\\audio\\mix.wav",
+  "mixSha256": "3b7f77649e83c5070414a96d6c3294d661d1b393f7a9a7834e5e74db4ce24195",
+  "timelineSha256": "902258495a7f4cc0a79ef8a4b1032a7044c06edb4d081b9325cc224a6d3ea4ee",
+  "sampleRate": 48000,
+  "channels": 2,
+  "samples": 3009600,
+  "durationSeconds": 62.7,
+  "voiceFramesAdded": 1,
+  "voiceSamplesAdded": 1600,
+  "voiceSamplesOtherwiseIdentical": true,
+  "wordCount": 205,
+  "captionCount": 205,
+  "allTokensMatchScript": true,
+  "allCaptionTimesMatchWords": true,
+  "maximumOffsetRoundingErrorSeconds": 3.333333343860656e-07,
+  "sampledWords": [
+    {
+      "index": 21,
+      "w": "his",
+      "s": 6.488333,
+      "e": 6.558333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -24.34,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 55,
+      "w": "the",
+      "s": 17.575333,
+      "e": 17.645333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -23.41,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 59,
+      "w": "neighbour",
+      "s": 19.212333,
+      "e": 19.421333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -21.77,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 70,
+      "w": "bricks",
+      "s": 22.358333,
+      "e": 22.556333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -23.74,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 102,
+      "w": "situation.",
+      "s": 31.217333,
+      "e": 31.798333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -25.83,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 144,
+      "w": "evening,",
+      "s": 44.789333,
+      "e": 45.184333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -26.06,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 164,
+      "w": "the",
+      "s": 50.734333,
+      "e": 50.803333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -21.15,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 171,
+      "w": "his",
+      "s": 52.940333,
+      "e": 53.033333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -22.55,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 181,
+      "w": "new",
+      "s": 55.598333,
+      "e": 55.691333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -21.89,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    },
+    {
+      "index": 201,
+      "w": "than",
+      "s": 61.658333,
+      "e": 61.751333,
+      "sourceSamplesUnchanged": true,
+      "windowRmsDbfs": -23.82,
+      "reviewScope": "Exact source-sample mapping and character-timestamp consistency; not speech recognition or listening."
+    }
+  ],
+  "plannedPausesOver250ms": [
+    {
+      "afterWordIndex": 10,
+      "after": "failure.",
+      "before": "Every",
+      "start": 2.877333,
+      "end": 3.307333,
+      "duration": 0.43,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 23,
+      "after": "calendar.",
+      "before": "Soon,",
+      "start": 7.452333,
+      "end": 8.125333,
+      "duration": 0.673,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 34,
+      "after": "routine.",
+      "before": "Then",
+      "start": 11.399333,
+      "end": 11.898333,
+      "duration": 0.499,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 40,
+      "after": "lane.",
+      "before": "One",
+      "start": 13.221333,
+      "end": 13.593333,
+      "duration": 0.372,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 44,
+      "after": "blank.",
+      "before": "Marcus",
+      "start": 14.742333,
+      "end": 15.416333,
+      "duration": 0.674,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 56,
+      "after": "bin.",
+      "before": "Luckily,",
+      "start": 17.993333,
+      "end": 18.574333,
+      "duration": 0.581,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 63,
+      "after": "wall.",
+      "before": "Unluckily,",
+      "start": 20.338333,
+      "end": 20.919333,
+      "duration": 0.581,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 73,
+      "after": "bricklayer.",
+      "before": "He",
+      "start": 23.172333,
+      "end": 23.543333,
+      "duration": 0.371,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 79,
+      "after": "space.",
+      "before": "The",
+      "start": 24.925333,
+      "end": 25.424333,
+      "duration": 0.499,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 92,
+      "after": "standing.",
+      "before": "You",
+      "start": 28.106333,
+      "end": 28.686333,
+      "duration": 0.58,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 94,
+      "after": "see,",
+      "before": "habits",
+      "start": 29.139333,
+      "end": 29.464333,
+      "duration": 0.325,
+      "plannedReason": "Short explanatory clause pause after You see,"
+    },
+    {
+      "afterWordIndex": 102,
+      "after": "situation.",
+      "before": "In",
+      "start": 31.798333,
+      "end": 32.297333,
+      "duration": 0.499,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 118,
+      "after": "process.",
+      "before": "Think",
+      "start": 36.651333,
+      "end": 36.976333,
+      "duration": 0.325,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 122,
+      "after": "bricks.",
+      "before": "Skipping",
+      "start": 37.928333,
+      "end": 38.601333,
+      "duration": 0.673,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 130,
+      "after": "disappear.",
+      "before": "But",
+      "start": 40.830333,
+      "end": 41.329333,
+      "duration": 0.499,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 140,
+      "after": "taller.",
+      "before": "So",
+      "start": 43.628333,
+      "end": 44.302333,
+      "duration": 0.674,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 158,
+      "after": "routine.",
+      "before": "No",
+      "start": 48.319333,
+      "end": 49.108333,
+      "duration": 0.789,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 167,
+      "after": "step.",
+      "before": "A",
+      "start": 51.744333,
+      "end": 52.324333,
+      "duration": 0.58,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 176,
+      "after": "gap.",
+      "before": "It",
+      "start": 54.194333,
+      "end": 54.774333,
+      "duration": 0.58,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 183,
+      "after": "squares.",
+      "before": "This",
+      "start": 56.480333,
+      "end": 57.154333,
+      "duration": 0.674,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    },
+    {
+      "afterWordIndex": 194,
+      "after": "flat.",
+      "before": "Apparently,",
+      "start": 59.348333,
+      "end": 60.021333,
+      "duration": 0.673,
+      "plannedReason": "Sentence/beat boundary pause in the approved narration"
+    }
+  ],
+  "unplannedPausesOver250ms": [],
+  "voiceTailPaddingSamplesInPicture": 922,
+  "cueCount": 31,
+  "exactImpacts": {
+    "brick-land": 1123,
+    "shoes-set": 1376,
+    "paperweight": 1830
+  },
+  "loudness": {
+    "integratedLufs": -14.4,
+    "truePeakDbtp": -1.5,
+    "summary": "Summary:\n\n  Integrated loudness:\n    I:         -14.4 LUFS\n    Threshold: -24.4 LUFS\n\n  Loudness range:\n    LRA:         1.9 LU\n    Threshold: -34.5 LUFS\n    LRA low:   -15.4 LUFS\n    LRA high:  -13.5 LUFS\n\n  True peak:\n    Peak:       -1.5 dBFS\n[out#0/null @ 000001d73b982cc0] video:0KiB audio:11756KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:01:02.70 bitrate=N/A speed= 283x elapsed=0:00:00.22"
+  },
+  "speechBedBalanceBeforeSharedMaster": [
+    {
+      "shot": 1,
+      "speechLufs": -19.99,
+      "bedLufs": -31.08,
+      "speechMarginMedianLu": 12.04,
+      "speechMarginP10Lu": 5.26
+    },
+    {
+      "shot": 2,
+      "speechLufs": -20.01,
+      "bedLufs": -27.48,
+      "speechMarginMedianLu": 8.17,
+      "speechMarginP10Lu": 5.11
+    },
+    {
+      "shot": 3,
+      "speechLufs": -20.79,
+      "bedLufs": -28.8,
+      "speechMarginMedianLu": 9.1,
+      "speechMarginP10Lu": 4.53
+    },
+    {
+      "shot": 4,
+      "speechLufs": -20.56,
+      "bedLufs": -31.95,
+      "speechMarginMedianLu": 10.4,
+      "speechMarginP10Lu": 6.07
+    },
+    {
+      "shot": 5,
+      "speechLufs": -20.25,
+      "bedLufs": -30.75,
+      "speechMarginMedianLu": 11.27,
+      "speechMarginP10Lu": 8.81
+    },
+    {
+      "shot": 6,
+      "speechLufs": -20.58,
+      "bedLufs": -31.61,
+      "speechMarginMedianLu": 11.13,
+      "speechMarginP10Lu": 5.45
+    },
+    {
+      "shot": 7,
+      "speechLufs": -20.76,
+      "bedLufs": -30.88,
+      "speechMarginMedianLu": 10.22,
+      "speechMarginP10Lu": 6.73
+    },
+    {
+      "shot": 8,
+      "speechLufs": -21.23,
+      "bedLufs": -31.84,
+      "speechMarginMedianLu": 11.02,
+      "speechMarginP10Lu": 7.76
+    },
+    {
+      "shot": 9,
+      "speechLufs": -20.07,
+      "bedLufs": -27.76,
+      "speechMarginMedianLu": 8.32,
+      "speechMarginP10Lu": 5.42
+    },
+    {
+      "shot": 10,
+      "speechLufs": -19.9,
+      "bedLufs": -31.41,
+      "speechMarginMedianLu": 12.02,
+      "speechMarginP10Lu": 8.36
+    },
+    {
+      "shot": 11,
+      "speechLufs": -19.89,
+      "bedLufs": -33.19,
+      "speechMarginMedianLu": 14.08,
+      "speechMarginP10Lu": 9.26
+    },
+    {
+      "shot": 12,
+      "speechLufs": -19.99,
+      "bedLufs": -32.13,
+      "speechMarginMedianLu": 12.09,
+      "speechMarginP10Lu": 7.88
+    },
+    {
+      "shot": 13,
+      "speechLufs": -19.64,
+      "bedLufs": -30.7,
+      "speechMarginMedianLu": 13.68,
+      "speechMarginP10Lu": 9.44
+    },
+    {
+      "shot": 14,
+      "speechLufs": -20.16,
+      "bedLufs": -29.68,
+      "speechMarginMedianLu": 8.92,
+      "speechMarginP10Lu": 6.95
+    },
+    {
+      "shot": 15,
+      "speechLufs": -21.43,
+      "bedLufs": -30.56,
+      "speechMarginMedianLu": 10.7,
+      "speechMarginP10Lu": 4.84
+    },
+    {
+      "shot": 16,
+      "speechLufs": -20.32,
+      "bedLufs": -27.04,
+      "speechMarginMedianLu": 8.66,
+      "speechMarginP10Lu": 3.6
+    },
+    {
+      "shot": 17,
+      "speechLufs": -21.1,
+      "bedLufs": -33.0,
+      "speechMarginMedianLu": 12.25,
+      "speechMarginP10Lu": 5.17
+    },
+    {
+      "shot": 18,
+      "speechLufs": -19.79,
+      "bedLufs": -27.72,
+      "speechMarginMedianLu": 7.34,
+      "speechMarginP10Lu": 5.26
+    }
+  ],
+  "speechMarginMedianLu": 10.6,
+  "speechMarginP10Lu": 5.58,
+  "warningsForListening": [],
+  "waveformSheet": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts\\projects\\perfect-streaks\\audio\\word-waveforms.png"
+}

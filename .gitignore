@@ -1,0 +1,25 @@
+# Large binary video files and render outputs
+Rendered Videos/*.mp4
+Rendered Videos/*-qa/
+Rendered Videos/*.png
+Rendered Videos/*.webm
+
+# Virtual environments, node_modules, and temporary caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+*.log
+
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+
+# Large archive files
+claude-animated-shorts.zip
+
+# System artifacts
+.DS_Store
+Thumbs.db

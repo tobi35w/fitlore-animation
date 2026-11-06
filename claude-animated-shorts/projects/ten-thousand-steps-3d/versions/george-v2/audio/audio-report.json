@@ -1,0 +1,18 @@
+{
+  "durationSeconds": 63.13333333333333,
+  "sampleRate": 48000,
+  "channels": 2,
+  "targetLufs": -14,
+  "integratedLufs": -14.52,
+  "truePeakDb": -1.49,
+  "voiceSha256": "37faf2229cd29ac5b84659b5f01f557b1b6b78d88001b00e3847205fa01713bf",
+  "wordsSha256": "8f3cf40da8fa6d312c0af2aee573177fd5af977d6bf294f9e05407e7868ba219",
+  "cuesSha256": "ca9cdf0856b8d0708484bda99c02554b718a620a5d19d2c5cdfc65dea7c07bdc",
+  "timelineSha256": "7cf9b99630002c9ce764f399edd1b2c0aa2efd7115f229968b7e6ac718e92ea9",
+  "musicGainDb": 3,
+  "sfxGainDb": -6,
+  "duckDb": -6,
+  "effects": 89,
+  "mix": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts\\projects\\ten-thousand-steps-3d\\audio\\mix.wav",
+  "voiceProcessing": "None before common loudness mastering"
+}

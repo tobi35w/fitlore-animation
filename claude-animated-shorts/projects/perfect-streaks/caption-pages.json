@@ -1,0 +1,1391 @@
+[
+  {
+    "text": "Marcus missed one workout",
+    "startMs": 33.333,
+    "tokens": [
+      {
+        "text": "Marcus",
+        "fromMs": 33.333,
+        "toMs": 358.333
+      },
+      {
+        "text": " missed",
+        "fromMs": 416.333,
+        "toMs": 567.333
+      },
+      {
+        "text": " one",
+        "fromMs": 625.3330000000001,
+        "toMs": 811.333
+      },
+      {
+        "text": " workout",
+        "fromMs": 834.333,
+        "toMs": 1194.333
+      }
+    ],
+    "durationMs": 1289
+  },
+  {
+    "text": "and declared the whole month",
+    "startMs": 1322.333,
+    "tokens": [
+      {
+        "text": "and",
+        "fromMs": 1322.333,
+        "toMs": 1473.333
+      },
+      {
+        "text": " declared",
+        "fromMs": 1507.333,
+        "toMs": 1809.333
+      },
+      {
+        "text": " the",
+        "fromMs": 1833.333,
+        "toMs": 1902.333
+      },
+      {
+        "text": " whole",
+        "fromMs": 1949.333,
+        "toMs": 2111.333
+      },
+      {
+        "text": " month",
+        "fromMs": 2134.3329999999996,
+        "toMs": 2285.333
+      }
+    ],
+    "durationMs": 998
+  },
+  {
+    "text": "a failure.",
+    "startMs": 2320.333,
+    "tokens": [
+      {
+        "text": "a",
+        "fromMs": 2320.333,
+        "toMs": 2343.333
+      },
+      {
+        "text": " failure.",
+        "fromMs": 2401.333,
+        "toMs": 2877.333
+      }
+    ],
+    "durationMs": 557
+  },
+  {
+    "text": "Every evening, he trained,",
+    "startMs": 3307.3329999999996,
+    "tokens": [
+      {
+        "text": "Every",
+        "fromMs": 3307.3329999999996,
+        "toMs": 3528.333
+      },
+      {
+        "text": " evening,",
+        "fromMs": 3586.333,
+        "toMs": 3841.333
+      },
+      {
+        "text": " he",
+        "fromMs": 3864.3329999999996,
+        "toMs": 3911.333
+      },
+      {
+        "text": " trained,",
+        "fromMs": 3957.333,
+        "toMs": 4364.3330000000005
+      }
+    ],
+    "durationMs": 1196
+  },
+  {
+    "text": "coloured one square green,",
+    "startMs": 4503.333,
+    "tokens": [
+      {
+        "text": "coloured",
+        "fromMs": 4503.333,
+        "toMs": 4758.3330000000005
+      },
+      {
+        "text": " one",
+        "fromMs": 4805.333,
+        "toMs": 5014.333
+      },
+      {
+        "text": " square",
+        "fromMs": 5049.333,
+        "toMs": 5339.333
+      },
+      {
+        "text": " green,",
+        "fromMs": 5385.3330000000005,
+        "toMs": 5768.3330000000005
+      }
+    ],
+    "durationMs": 1405
+  },
+  {
+    "text": "and admired his perfect",
+    "startMs": 5908.333,
+    "tokens": [
+      {
+        "text": "and",
+        "fromMs": 5908.333,
+        "toMs": 6024.3330000000005
+      },
+      {
+        "text": " admired",
+        "fromMs": 6059.333,
+        "toMs": 6453.333
+      },
+      {
+        "text": " his",
+        "fromMs": 6488.333,
+        "toMs": 6558.3330000000005
+      },
+      {
+        "text": " perfect",
+        "fromMs": 6616.333,
+        "toMs": 6894.333
+      }
+    ],
+    "durationMs": 1033.000000000001
+  },
+  {
+    "text": "calendar.",
+    "startMs": 6941.3330000000005,
+    "tokens": [
+      {
+        "text": "calendar.",
+        "fromMs": 6941.3330000000005,
+        "toMs": 7452.3330000000005
+      }
+    ],
+    "durationMs": 511
+  },
+  {
+    "text": "Soon, protecting",
+    "startMs": 8125.333,
+    "tokens": [
+      {
+        "text": "Soon,",
+        "fromMs": 8125.333,
+        "toMs": 8543.333
+      },
+      {
+        "text": " protecting",
+        "fromMs": 8682.333,
+        "toMs": 9066.333
+      }
+    ],
+    "durationMs": 964.0000000000009
+  },
+  {
+    "text": "the streak became more",
+    "startMs": 9089.333,
+    "tokens": [
+      {
+        "text": "the",
+        "fromMs": 9089.333,
+        "toMs": 9158.333
+      },
+      {
+        "text": " streak",
+        "fromMs": 9182.333,
+        "toMs": 9402.333
+      },
+      {
+        "text": " became",
+        "fromMs": 9576.333,
+        "toMs": 9855.333
+      },
+      {
+        "text": " more",
+        "fromMs": 9901.332999999999,
+        "toMs": 10041.333
+      }
+    ],
+    "durationMs": 974.9999999999982
+  },
+  {
+    "text": "important than enjoying the routine.",
+    "startMs": 10064.332999999999,
+    "tokens": [
+      {
+        "text": "important",
+        "fromMs": 10064.332999999999,
+        "toMs": 10354.333
+      },
+      {
+        "text": " than",
+        "fromMs": 10377.333,
+        "toMs": 10470.333
+      },
+      {
+        "text": " enjoying",
+        "fromMs": 10505.333,
+        "toMs": 10784.333
+      },
+      {
+        "text": " the",
+        "fromMs": 10807.333,
+        "toMs": 10876.333
+      },
+      {
+        "text": " routine.",
+        "fromMs": 10899.333,
+        "toMs": 11399.333
+      }
+    ],
+    "durationMs": 1335.0000000000018
+  },
+  {
+    "text": "Then a storm flooded the",
+    "startMs": 11898.332999999999,
+    "tokens": [
+      {
+        "text": "Then",
+        "fromMs": 11898.332999999999,
+        "toMs": 12072.333
+      },
+      {
+        "text": " a",
+        "fromMs": 12118.333,
+        "toMs": 12142.333
+      },
+      {
+        "text": " storm",
+        "fromMs": 12200.333,
+        "toMs": 12467.333
+      },
+      {
+        "text": " flooded",
+        "fromMs": 12525.333,
+        "toMs": 12792.332999999999
+      },
+      {
+        "text": " the",
+        "fromMs": 12815.333,
+        "toMs": 12885.332999999999
+      }
+    ],
+    "durationMs": 1022
+  },
+  {
+    "text": "lane.",
+    "startMs": 12920.332999999999,
+    "tokens": [
+      {
+        "text": "lane.",
+        "fromMs": 12920.332999999999,
+        "toMs": 13221.332999999999
+      }
+    ],
+    "durationMs": 301
+  },
+  {
+    "text": "One square stayed blank.",
+    "startMs": 13593.332999999999,
+    "tokens": [
+      {
+        "text": "One",
+        "fromMs": 13593.332999999999,
+        "toMs": 13779.332999999999
+      },
+      {
+        "text": " square",
+        "fromMs": 13814.332999999999,
+        "toMs": 14081.333
+      },
+      {
+        "text": " stayed",
+        "fromMs": 14127.333,
+        "toMs": 14371.333
+      },
+      {
+        "text": " blank.",
+        "fromMs": 14394.332999999999,
+        "toMs": 14742.333
+      }
+    ],
+    "durationMs": 1149.0000000000018
+  },
+  {
+    "text": "Marcus rolled up the calendar",
+    "startMs": 15416.333,
+    "tokens": [
+      {
+        "text": "Marcus",
+        "fromMs": 15416.333,
+        "toMs": 15729.333
+      },
+      {
+        "text": " rolled",
+        "fromMs": 15810.333,
+        "toMs": 16031.333
+      },
+      {
+        "text": " up",
+        "fromMs": 16054.333,
+        "toMs": 16112.332999999999
+      },
+      {
+        "text": " the",
+        "fromMs": 16136.333,
+        "toMs": 16205.332999999999
+      },
+      {
+        "text": " calendar",
+        "fromMs": 16228.332999999999,
+        "toMs": 16600.333
+      }
+    ],
+    "durationMs": 1241.9999999999982
+  },
+  {
+    "text": "and marched his shoes toward the",
+    "startMs": 16658.333,
+    "tokens": [
+      {
+        "text": "and",
+        "fromMs": 16658.333,
+        "toMs": 16739.333
+      },
+      {
+        "text": " marched",
+        "fromMs": 16797.333,
+        "toMs": 17006.333000000002
+      },
+      {
+        "text": " his",
+        "fromMs": 17030.333,
+        "toMs": 17099.333000000002
+      },
+      {
+        "text": " shoes",
+        "fromMs": 17134.333000000002,
+        "toMs": 17343.333000000002
+      },
+      {
+        "text": " toward",
+        "fromMs": 17378.333000000002,
+        "toMs": 17552.333000000002
+      },
+      {
+        "text": " the",
+        "fromMs": 17575.333,
+        "toMs": 17645.333000000002
+      }
+    ],
+    "durationMs": 1010
+  },
+  {
+    "text": "bin.",
+    "startMs": 17668.333,
+    "tokens": [
+      {
+        "text": "bin.",
+        "fromMs": 17668.333,
+        "toMs": 17993.333
+      }
+    ],
+    "durationMs": 325
+  },
+  {
+    "text": "Luckily, his neighbour was",
+    "startMs": 18574.333,
+    "tokens": [
+      {
+        "text": "Luckily,",
+        "fromMs": 18574.333,
+        "toMs": 19015.333
+      },
+      {
+        "text": " his",
+        "fromMs": 19061.333000000002,
+        "toMs": 19154.333000000002
+      },
+      {
+        "text": " neighbour",
+        "fromMs": 19212.333000000002,
+        "toMs": 19421.333000000002
+      },
+      {
+        "text": " was",
+        "fromMs": 19468.333000000002,
+        "toMs": 19549.333000000002
+      }
+    ],
+    "durationMs": 1033.0000000000036
+  },
+  {
+    "text": "building a wall.",
+    "startMs": 19607.333000000002,
+    "tokens": [
+      {
+        "text": "building",
+        "fromMs": 19607.333000000002,
+        "toMs": 19862.333
+      },
+      {
+        "text": " a",
+        "fromMs": 19909.333,
+        "toMs": 19932.333
+      },
+      {
+        "text": " wall.",
+        "fromMs": 19978.333,
+        "toMs": 20338.333
+      }
+    ],
+    "durationMs": 730.9999999999964
+  },
+  {
+    "text": "Unluckily, Marcus was about",
+    "startMs": 20919.333000000002,
+    "tokens": [
+      {
+        "text": "Unluckily,",
+        "fromMs": 20919.333000000002,
+        "toMs": 21383.333
+      },
+      {
+        "text": " Marcus",
+        "fromMs": 21406.333,
+        "toMs": 21627.333
+      },
+      {
+        "text": " was",
+        "fromMs": 21650.333,
+        "toMs": 21720.333
+      },
+      {
+        "text": " about",
+        "fromMs": 21743.333,
+        "toMs": 21894.333
+      }
+    ],
+    "durationMs": 997.9999999999964
+  },
+  {
+    "text": "to explain bricks to a bricklayer.",
+    "startMs": 21917.333,
+    "tokens": [
+      {
+        "text": "to",
+        "fromMs": 21917.333,
+        "toMs": 21964.333
+      },
+      {
+        "text": " explain",
+        "fromMs": 22010.333,
+        "toMs": 22277.333
+      },
+      {
+        "text": " bricks",
+        "fromMs": 22358.333,
+        "toMs": 22556.333
+      },
+      {
+        "text": " to",
+        "fromMs": 22579.333,
+        "toMs": 22625.333000000002
+      },
+      {
+        "text": " a",
+        "fromMs": 22684.333,
+        "toMs": 22707.333
+      },
+      {
+        "text": " bricklayer.",
+        "fromMs": 22742.333,
+        "toMs": 23172.333
+      }
+    ],
+    "durationMs": 1255
+  },
+  {
+    "text": "He pointed at one empty",
+    "startMs": 23543.333,
+    "tokens": [
+      {
+        "text": "He",
+        "fromMs": 23543.333,
+        "toMs": 23636.333
+      },
+      {
+        "text": " pointed",
+        "fromMs": 23706.333000000002,
+        "toMs": 23938.333
+      },
+      {
+        "text": " at",
+        "fromMs": 23961.333,
+        "toMs": 24008.333
+      },
+      {
+        "text": " one",
+        "fromMs": 24066.333,
+        "toMs": 24240.333
+      },
+      {
+        "text": " empty",
+        "fromMs": 24275.333,
+        "toMs": 24472.333
+      }
+    ],
+    "durationMs": 964
+  },
+  {
+    "text": "space.",
+    "startMs": 24507.333,
+    "tokens": [
+      {
+        "text": "space.",
+        "fromMs": 24507.333,
+        "toMs": 24925.333
+      }
+    ],
+    "durationMs": 418
+  },
+  {
+    "text": "The neighbour looked at the gap,",
+    "startMs": 25424.333000000002,
+    "tokens": [
+      {
+        "text": "The",
+        "fromMs": 25424.333000000002,
+        "toMs": 25517.333000000002
+      },
+      {
+        "text": " neighbour",
+        "fromMs": 25552.333000000002,
+        "toMs": 25761.333
+      },
+      {
+        "text": " looked",
+        "fromMs": 25795.333,
+        "toMs": 25935.333
+      },
+      {
+        "text": " at",
+        "fromMs": 25958.333,
+        "toMs": 26004.333
+      },
+      {
+        "text": " the",
+        "fromMs": 26028.333,
+        "toMs": 26097.333
+      },
+      {
+        "text": " gap,",
+        "fromMs": 26132.333,
+        "toMs": 26504.333
+      }
+    ],
+    "durationMs": 1207
+  },
+  {
+    "text": "then at all the bricks still",
+    "startMs": 26631.333000000002,
+    "tokens": [
+      {
+        "text": "then",
+        "fromMs": 26631.333000000002,
+        "toMs": 26852.333000000002
+      },
+      {
+        "text": " at",
+        "fromMs": 26910.333000000002,
+        "toMs": 26991.333000000002
+      },
+      {
+        "text": " all",
+        "fromMs": 27026.333000000002,
+        "toMs": 27119.333000000002
+      },
+      {
+        "text": " the",
+        "fromMs": 27154.333000000002,
+        "toMs": 27224.333000000002
+      },
+      {
+        "text": " bricks",
+        "fromMs": 27258.333,
+        "toMs": 27444.333
+      },
+      {
+        "text": " still",
+        "fromMs": 27502.333,
+        "toMs": 27665.333
+      }
+    ],
+    "durationMs": 1068.9999999999964
+  },
+  {
+    "text": "standing.",
+    "startMs": 27700.333,
+    "tokens": [
+      {
+        "text": "standing.",
+        "fromMs": 27700.333,
+        "toMs": 28106.333
+      }
+    ],
+    "durationMs": 406
+  },
+  {
+    "text": "You see, habits",
+    "startMs": 28686.333000000002,
+    "tokens": [
+      {
+        "text": "You",
+        "fromMs": 28686.333000000002,
+        "toMs": 28791.333000000002
+      },
+      {
+        "text": " see,",
+        "fromMs": 28849.333000000002,
+        "toMs": 29139.333000000002
+      },
+      {
+        "text": " habits",
+        "fromMs": 29464.333,
+        "toMs": 29731.333
+      }
+    ],
+    "durationMs": 1079.9999999999964
+  },
+  {
+    "text": "develop through repetition",
+    "startMs": 29766.333,
+    "tokens": [
+      {
+        "text": "develop",
+        "fromMs": 29766.333,
+        "toMs": 30022.333
+      },
+      {
+        "text": " through",
+        "fromMs": 30068.333,
+        "toMs": 30230.333000000002
+      },
+      {
+        "text": " repetition",
+        "fromMs": 30254.333,
+        "toMs": 30683.333000000002
+      }
+    ],
+    "durationMs": 964.0000000000036
+  },
+  {
+    "text": "in a familiar situation.",
+    "startMs": 30730.333000000002,
+    "tokens": [
+      {
+        "text": "in",
+        "fromMs": 30730.333000000002,
+        "toMs": 30776.333000000002
+      },
+      {
+        "text": " a",
+        "fromMs": 30799.333000000002,
+        "toMs": 30823.333000000002
+      },
+      {
+        "text": " familiar",
+        "fromMs": 30857.333000000002,
+        "toMs": 31171.333000000002
+      },
+      {
+        "text": " situation.",
+        "fromMs": 31217.333,
+        "toMs": 31798.333
+      }
+    ],
+    "durationMs": 1067.9999999999964
+  },
+  {
+    "text": "In one study of everyday",
+    "startMs": 32297.333000000002,
+    "tokens": [
+      {
+        "text": "In",
+        "fromMs": 32297.333000000002,
+        "toMs": 32413.333000000002
+      },
+      {
+        "text": " one",
+        "fromMs": 32483.333000000002,
+        "toMs": 32657.333000000002
+      },
+      {
+        "text": " study",
+        "fromMs": 32692.333,
+        "toMs": 32924.333
+      },
+      {
+        "text": " of",
+        "fromMs": 32959.333,
+        "toMs": 33005.333
+      },
+      {
+        "text": " everyday",
+        "fromMs": 33075.333,
+        "toMs": 33330.333000000006
+      }
+    ],
+    "durationMs": 1079.9999999999964
+  },
+  {
+    "text": "habits, missing a single",
+    "startMs": 33377.333,
+    "tokens": [
+      {
+        "text": "habits,",
+        "fromMs": 33377.333,
+        "toMs": 33772.333000000006
+      },
+      {
+        "text": " missing",
+        "fromMs": 33946.333000000006,
+        "toMs": 34201.333
+      },
+      {
+        "text": " a",
+        "fromMs": 34236.333,
+        "toMs": 34259.333
+      },
+      {
+        "text": " single",
+        "fromMs": 34329.333,
+        "toMs": 34561.333
+      }
+    ],
+    "durationMs": 1207
+  },
+  {
+    "text": "opportunity did not materially",
+    "startMs": 34584.333,
+    "tokens": [
+      {
+        "text": "opportunity",
+        "fromMs": 34584.333,
+        "toMs": 34944.333
+      },
+      {
+        "text": " did",
+        "fromMs": 34979.333,
+        "toMs": 35048.333
+      },
+      {
+        "text": " not",
+        "fromMs": 35095.333,
+        "toMs": 35211.333000000006
+      },
+      {
+        "text": " materially",
+        "fromMs": 35246.333,
+        "toMs": 35641.333000000006
+      }
+    ],
+    "durationMs": 1091
+  },
+  {
+    "text": "disrupt the process.",
+    "startMs": 35675.333,
+    "tokens": [
+      {
+        "text": "disrupt",
+        "fromMs": 35675.333,
+        "toMs": 35942.333
+      },
+      {
+        "text": " the",
+        "fromMs": 35966.333,
+        "toMs": 36035.333
+      },
+      {
+        "text": " process.",
+        "fromMs": 36059.333,
+        "toMs": 36651.333
+      }
+    ],
+    "durationMs": 976
+  },
+  {
+    "text": "Think of adding bricks.",
+    "startMs": 36976.333,
+    "tokens": [
+      {
+        "text": "Think",
+        "fromMs": 36976.333,
+        "toMs": 37127.333
+      },
+      {
+        "text": " of",
+        "fromMs": 37161.333,
+        "toMs": 37208.333000000006
+      },
+      {
+        "text": " adding",
+        "fromMs": 37266.333000000006,
+        "toMs": 37463.333
+      },
+      {
+        "text": " bricks.",
+        "fromMs": 37510.333000000006,
+        "toMs": 37928.333
+      }
+    ],
+    "durationMs": 952
+  },
+  {
+    "text": "Skipping one delivery doesn't",
+    "startMs": 38601.333,
+    "tokens": [
+      {
+        "text": "Skipping",
+        "fromMs": 38601.333,
+        "toMs": 38891.333000000006
+      },
+      {
+        "text": " one",
+        "fromMs": 38961.333000000006,
+        "toMs": 39089.333000000006
+      },
+      {
+        "text": " delivery",
+        "fromMs": 39112.333,
+        "toMs": 39367.333
+      },
+      {
+        "text": " doesn't",
+        "fromMs": 39425.333,
+        "toMs": 39588.333
+      }
+    ],
+    "durationMs": 1010
+  },
+  {
+    "text": "make yesterday's wall disappear.",
+    "startMs": 39611.333,
+    "tokens": [
+      {
+        "text": "make",
+        "fromMs": 39611.333,
+        "toMs": 39727.333
+      },
+      {
+        "text": " yesterday's",
+        "fromMs": 39751.333000000006,
+        "toMs": 40110.333
+      },
+      {
+        "text": " wall",
+        "fromMs": 40157.333,
+        "toMs": 40319.333
+      },
+      {
+        "text": " disappear.",
+        "fromMs": 40366.333,
+        "toMs": 40830.333000000006
+      }
+    ],
+    "durationMs": 1219.0000000000073
+  },
+  {
+    "text": "But abandoning the building site",
+    "startMs": 41329.333,
+    "tokens": [
+      {
+        "text": "But",
+        "fromMs": 41329.333,
+        "toMs": 41446.333000000006
+      },
+      {
+        "text": " abandoning",
+        "fromMs": 41469.333,
+        "toMs": 41840.333
+      },
+      {
+        "text": " the",
+        "fromMs": 41875.333,
+        "toMs": 41945.333
+      },
+      {
+        "text": " building",
+        "fromMs": 41968.333,
+        "toMs": 42189.333
+      },
+      {
+        "text": " site",
+        "fromMs": 42235.333,
+        "toMs": 42432.333
+      }
+    ],
+    "durationMs": 1127
+  },
+  {
+    "text": "certainly stops it getting taller.",
+    "startMs": 42456.333,
+    "tokens": [
+      {
+        "text": "certainly",
+        "fromMs": 42456.333,
+        "toMs": 42688.333
+      },
+      {
+        "text": " stops",
+        "fromMs": 42711.333000000006,
+        "toMs": 42920.333
+      },
+      {
+        "text": " it",
+        "fromMs": 42943.333000000006,
+        "toMs": 42990.333
+      },
+      {
+        "text": " getting",
+        "fromMs": 43013.333000000006,
+        "toMs": 43175.333
+      },
+      {
+        "text": " taller.",
+        "fromMs": 43210.333,
+        "toMs": 43628.333
+      }
+    ],
+    "durationMs": 1172
+  },
+  {
+    "text": "So the next evening, Marcus",
+    "startMs": 44302.333,
+    "tokens": [
+      {
+        "text": "So",
+        "fromMs": 44302.333,
+        "toMs": 44441.333
+      },
+      {
+        "text": " the",
+        "fromMs": 44476.333,
+        "toMs": 44545.333
+      },
+      {
+        "text": " next",
+        "fromMs": 44580.333000000006,
+        "toMs": 44731.333
+      },
+      {
+        "text": " evening,",
+        "fromMs": 44789.333,
+        "toMs": 45184.333
+      },
+      {
+        "text": " Marcus",
+        "fromMs": 45393.333,
+        "toMs": 45672.333
+      }
+    ],
+    "durationMs": 1416
+  },
+  {
+    "text": "put his shoes beside the same",
+    "startMs": 45718.333,
+    "tokens": [
+      {
+        "text": "put",
+        "fromMs": 45718.333,
+        "toMs": 45811.333
+      },
+      {
+        "text": " his",
+        "fromMs": 45834.333,
+        "toMs": 45904.333
+      },
+      {
+        "text": " shoes",
+        "fromMs": 45927.333,
+        "toMs": 46101.333
+      },
+      {
+        "text": " beside",
+        "fromMs": 46136.333,
+        "toMs": 46345.333
+      },
+      {
+        "text": " the",
+        "fromMs": 46368.333,
+        "toMs": 46438.333
+      },
+      {
+        "text": " same",
+        "fromMs": 46461.333000000006,
+        "toMs": 46635.333000000006
+      }
+    ],
+    "durationMs": 941
+  },
+  {
+    "text": "doorway and returned to his usual",
+    "startMs": 46659.333,
+    "tokens": [
+      {
+        "text": "doorway",
+        "fromMs": 46659.333,
+        "toMs": 46903.333000000006
+      },
+      {
+        "text": " and",
+        "fromMs": 46937.333000000006,
+        "toMs": 47007.333000000006
+      },
+      {
+        "text": " returned",
+        "fromMs": 47053.333,
+        "toMs": 47286.333
+      },
+      {
+        "text": " to",
+        "fromMs": 47309.333,
+        "toMs": 47355.333
+      },
+      {
+        "text": " his",
+        "fromMs": 47413.333,
+        "toMs": 47483.333
+      },
+      {
+        "text": " usual",
+        "fromMs": 47541.333,
+        "toMs": 47773.333
+      }
+    ],
+    "durationMs": 1161
+  },
+  {
+    "text": "routine.",
+    "startMs": 47820.333,
+    "tokens": [
+      {
+        "text": "routine.",
+        "fromMs": 47820.333,
+        "toMs": 48319.333
+      }
+    ],
+    "durationMs": 499
+  },
+  {
+    "text": "No heroic double session.",
+    "startMs": 49108.333,
+    "tokens": [
+      {
+        "text": "No",
+        "fromMs": 49108.333,
+        "toMs": 49271.333
+      },
+      {
+        "text": " heroic",
+        "fromMs": 49364.333,
+        "toMs": 49701.333
+      },
+      {
+        "text": " double",
+        "fromMs": 49759.333,
+        "toMs": 49933.333
+      },
+      {
+        "text": " session.",
+        "fromMs": 49956.333,
+        "toMs": 50374.333
+      }
+    ],
+    "durationMs": 1266
+  },
+  {
+    "text": "Just the next sensible step.",
+    "startMs": 50548.333,
+    "tokens": [
+      {
+        "text": "Just",
+        "fromMs": 50548.333,
+        "toMs": 50711.333000000006
+      },
+      {
+        "text": " the",
+        "fromMs": 50734.333,
+        "toMs": 50803.333
+      },
+      {
+        "text": " next",
+        "fromMs": 50838.333,
+        "toMs": 50989.333
+      },
+      {
+        "text": " sensible",
+        "fromMs": 51036.333,
+        "toMs": 51361.333
+      },
+      {
+        "text": " step.",
+        "fromMs": 51384.333,
+        "toMs": 51744.333
+      }
+    ],
+    "durationMs": 1196
+  },
+  {
+    "text": "A week later, his calendar",
+    "startMs": 52324.333000000006,
+    "tokens": [
+      {
+        "text": "A",
+        "fromMs": 52324.333000000006,
+        "toMs": 52382.333000000006
+      },
+      {
+        "text": " week",
+        "fromMs": 52440.333000000006,
+        "toMs": 52557.333
+      },
+      {
+        "text": " later,",
+        "fromMs": 52591.333,
+        "toMs": 52870.333
+      },
+      {
+        "text": " his",
+        "fromMs": 52940.333000000006,
+        "toMs": 53033.333
+      },
+      {
+        "text": " calendar",
+        "fromMs": 53079.333,
+        "toMs": 53392.333
+      }
+    ],
+    "durationMs": 1102.9999999999927
+  },
+  {
+    "text": "still had a gap.",
+    "startMs": 53427.333,
+    "tokens": [
+      {
+        "text": "still",
+        "fromMs": 53427.333,
+        "toMs": 53601.333
+      },
+      {
+        "text": " had",
+        "fromMs": 53648.333,
+        "toMs": 53729.333
+      },
+      {
+        "text": " a",
+        "fromMs": 53752.333,
+        "toMs": 53776.333
+      },
+      {
+        "text": " gap.",
+        "fromMs": 53822.333,
+        "toMs": 54194.333
+      }
+    ],
+    "durationMs": 767
+  },
+  {
+    "text": "It also had seven new",
+    "startMs": 54774.333,
+    "tokens": [
+      {
+        "text": "It",
+        "fromMs": 54774.333,
+        "toMs": 54879.333000000006
+      },
+      {
+        "text": " also",
+        "fromMs": 54913.333,
+        "toMs": 55088.333
+      },
+      {
+        "text": " had",
+        "fromMs": 55146.333,
+        "toMs": 55227.333
+      },
+      {
+        "text": " seven",
+        "fromMs": 55285.333,
+        "toMs": 55540.333
+      },
+      {
+        "text": " new",
+        "fromMs": 55598.333,
+        "toMs": 55691.333
+      }
+    ],
+    "durationMs": 964
+  },
+  {
+    "text": "green squares.",
+    "startMs": 55738.333,
+    "tokens": [
+      {
+        "text": "green",
+        "fromMs": 55738.333,
+        "toMs": 55912.333
+      },
+      {
+        "text": " squares.",
+        "fromMs": 55958.333000000006,
+        "toMs": 56480.333
+      }
+    ],
+    "durationMs": 742
+  },
+  {
+    "text": "This time, Marcus used",
+    "startMs": 57154.333,
+    "tokens": [
+      {
+        "text": "This",
+        "fromMs": 57154.333,
+        "toMs": 57305.333
+      },
+      {
+        "text": " time,",
+        "fromMs": 57351.333,
+        "toMs": 57618.333
+      },
+      {
+        "text": " Marcus",
+        "fromMs": 57688.333,
+        "toMs": 57932.333
+      },
+      {
+        "text": " used",
+        "fromMs": 57978.333,
+        "toMs": 58117.333
+      }
+    ],
+    "durationMs": 987.0000000000073
+  },
+  {
+    "text": "a brick to hold the calendar flat.",
+    "startMs": 58141.333000000006,
+    "tokens": [
+      {
+        "text": "a",
+        "fromMs": 58141.333000000006,
+        "toMs": 58164.333
+      },
+      {
+        "text": " brick",
+        "fromMs": 58222.333,
+        "toMs": 58384.333
+      },
+      {
+        "text": " to",
+        "fromMs": 58419.333,
+        "toMs": 58466.333
+      },
+      {
+        "text": " hold",
+        "fromMs": 58500.333,
+        "toMs": 58593.333
+      },
+      {
+        "text": " the",
+        "fromMs": 58617.333,
+        "toMs": 58686.333
+      },
+      {
+        "text": " calendar",
+        "fromMs": 58709.333,
+        "toMs": 58976.333
+      },
+      {
+        "text": " flat.",
+        "fromMs": 59011.333,
+        "toMs": 59348.333
+      }
+    ],
+    "durationMs": 1206.9999999999927
+  },
+  {
+    "text": "Apparently, progress needed",
+    "startMs": 60021.333,
+    "tokens": [
+      {
+        "text": "Apparently,",
+        "fromMs": 60021.333,
+        "toMs": 60451.333
+      },
+      {
+        "text": " progress",
+        "fromMs": 60474.333,
+        "toMs": 60799.333
+      },
+      {
+        "text": " needed",
+        "fromMs": 60834.333,
+        "toMs": 60997.333
+      }
+    ],
+    "durationMs": 999
+  },
+  {
+    "text": "a paperweight more than a perfect",
+    "startMs": 61020.333,
+    "tokens": [
+      {
+        "text": "a",
+        "fromMs": 61020.333,
+        "toMs": 61043.333
+      },
+      {
+        "text": " paperweight",
+        "fromMs": 61078.333,
+        "toMs": 61438.333
+      },
+      {
+        "text": " more",
+        "fromMs": 61484.333,
+        "toMs": 61635.333000000006
+      },
+      {
+        "text": " than",
+        "fromMs": 61658.333,
+        "toMs": 61751.333000000006
+      },
+      {
+        "text": " a",
+        "fromMs": 61774.333,
+        "toMs": 61798.333
+      },
+      {
+        "text": " perfect",
+        "fromMs": 61844.333,
+        "toMs": 62100.333
+      }
+    ],
+    "durationMs": 1126
+  },
+  {
+    "text": "record.",
+    "startMs": 62146.333,
+    "tokens": [
+      {
+        "text": "record.",
+        "fromMs": 62146.333,
+        "toMs": 62680.333
+      }
+    ],
+    "durationMs": 534
+  }
+]

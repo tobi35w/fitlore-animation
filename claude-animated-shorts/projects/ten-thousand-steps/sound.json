@@ -1,0 +1,23 @@
+{
+  "targetLufs": -16,
+  "music": {
+    "enabled": true,
+    "bpm": 82,
+    "gainDb": -15,
+    "duckDb": -8
+  },
+  "sfx": [
+    {
+      "type": "pop",
+      "at": 35.5,
+      "duration": 0.16,
+      "gainDb": -24
+    },
+    {
+      "type": "chime",
+      "at": 102.63333333333333,
+      "duration": 0.8,
+      "gainDb": -23
+    }
+  ]
+}

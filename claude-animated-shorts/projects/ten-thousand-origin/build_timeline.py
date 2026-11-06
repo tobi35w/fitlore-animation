@@ -1,0 +1,210 @@
+import json
+from pathlib import Path
+
+shots = [
+    {
+        'id': 1, 'a': 0, 'b': 110, 'title': 'Midnight pacing',
+        'location': 'living', 'light': 'blue', 'cameraType': 'medium push-in',
+        'pos': [-2.4, 1.7, 4.0], 'end': [-2.0, 1.65, 3.6],
+        'look': [0.0, 1.1, 0.0], 'lookEnd': [0.0, 1.1, 0.0],
+        'dof': 12, 'action': 'Marcus paces hurriedly around the coffee table in circles in his pyjamas.',
+        'props': 'coffee table, rug, floor lamp', 'words': 'Marcus paced circles around his coffee table at midnight,'
+    },
+    {
+        'id': 2, 'a': 110, 'b': 200, 'title': 'Desperate calculation',
+        'location': 'living', 'light': 'blue', 'cameraType': 'low tracking shot',
+        'pos': [-1.5, 0.6, 2.5], 'end': [-1.1, 0.65, 2.2],
+        'look': [0.2, 0.9, 0.0], 'lookEnd': [0.2, 0.9, 0.0],
+        'dof': 14, 'action': 'Low angle tracking Marcus slippers stepping rapidly with dust puffs.',
+        'props': 'slippers, rug, shadow', 'words': 'desperate for twenty-six hundred more steps.'
+    },
+    {
+        'id': 3, 'a': 200, 'b': 290, 'title': 'Watch red ring',
+        'location': 'living', 'light': 'blue', 'cameraType': 'close-up insert',
+        'pos': [-0.5, 1.35, 1.5], 'end': [-0.4, 1.35, 1.3],
+        'look': [0.0, 1.3, 0.0], 'lookEnd': [0.0, 1.3, 0.0],
+        'dof': 16, 'action': 'Insert close-up on smartwatch face glowing with incomplete red circle showing 7,400.',
+        'props': 'smartwatch, wrist, glowing display', 'words': 'His smart watch flashed a mocking red ring.'
+    },
+    {
+        'id': 4, 'a': 290, 'b': 395, 'title': 'Only ten thousand saves',
+        'location': 'living', 'light': 'blue', 'cameraType': 'dramatic low angle push',
+        'pos': [-1.8, 0.9, 3.2], 'end': [-1.5, 1.0, 2.8],
+        'look': [0.1, 1.35, 0.2], 'lookEnd': [0.1, 1.35, 0.2],
+        'dof': 12, 'action': 'Marcus looks up in anguish, holding both hands to his temples in despair.',
+        'props': 'living room wall, ceiling light shadow', 'words': 'Seven thousand was not enough; only the holy ten thousand could save him.'
+    },
+    {
+        'id': 5, 'a': 395, 'b': 490, 'title': 'Marching past cat',
+        'location': 'hallway', 'light': 'blue', 'cameraType': 'low side track',
+        'pos': [-2.8, 0.8, 3.5], 'end': [-2.4, 0.85, 3.2],
+        'look': [0.3, 0.7, 0.1], 'lookEnd': [0.3, 0.7, 0.1],
+        'dof': 12, 'action': 'Marcus marches past an armchair where an orange cat sleeps peacefully.',
+        'props': 'armchair, sleeping cat, doorway', 'words': 'He marched past his sleeping cat.'
+    },
+    {
+        'id': 6, 'a': 490, 'b': 595, 'title': 'Toothbrush high knees',
+        'location': 'hallway', 'light': 'day', 'cameraType': 'medium high knee follow',
+        'pos': [-1.6, 1.5, 3.0], 'end': [-1.3, 1.45, 2.7],
+        'look': [0.1, 1.15, 0.0], 'lookEnd': [0.1, 1.15, 0.0],
+        'dof': 12, 'action': 'Marcus pumps knees up high while vigorously scrubbing teeth with blue toothbrush.',
+        'props': 'toothbrush, foam splash, hallway mirror', 'words': 'He did frantic high knees while brushing his teeth.'
+    },
+    {
+        'id': 7, 'a': 595, 'b': 705, 'title': 'Midnight toe stub collapse',
+        'location': 'living', 'light': 'blue', 'cameraType': 'wide impact crane down',
+        'pos': [-3.0, 2.2, 4.8], 'end': [-2.6, 1.6, 4.2],
+        'look': [0.0, 0.8, 0.0], 'lookEnd': [0.0, 0.8, 0.0],
+        'dof': 10, 'action': 'Wall clock shows 12:00; Marcus stubs big toe on sideboard corner with stars FX and collapses.',
+        'props': 'wall clock, sideboard, star bursts, rug', 'words': 'At midnight, Marcus stubbed his toe and collapsed onto the rug.'
+    },
+    {
+        'id': 8, 'a': 705, 'b': 815, 'title': 'Plus two steps registered',
+        'location': 'living', 'light': 'blue', 'cameraType': 'floor level close-up',
+        'pos': [-0.8, 0.45, 1.8], 'end': [-0.6, 0.45, 1.6],
+        'look': [0.2, 0.25, 0.0], 'lookEnd': [0.2, 0.25, 0.0],
+        'dof': 15, 'action': 'Marcus face down on rug; his arm raises and watch vibrates with green +2 steps banner.',
+        'props': 'carpet texture, smartwatch screen, green check', 'words': 'Luckily, his tracker registered the crash as two extra steps.'
+    },
+    {
+        'id': 9, 'a': 815, 'b': 925, 'title': 'Clock salesman reveal',
+        'location': 'living', 'light': 'golden', 'cameraType': 'medium portrait tilt',
+        'pos': [-1.7, 1.1, 2.9], 'end': [-1.4, 1.2, 2.6],
+        'look': [0.0, 0.95, 0.0], 'lookEnd': [0.0, 0.95, 0.0],
+        'dof': 12, 'action': 'Marcus raises his head off the floor with a blank bewildered expression.',
+        'props': 'rug, dim lamp, shadow', 'words': 'Unluckily, the entire target was invented by a clock salesman.'
+    },
+    {
+        'id': 10, 'a': 925, 'b': 1030, 'title': 'Not a medical prescription',
+        'location': 'retro', 'light': 'golden', 'cameraType': 'presentation pan',
+        'pos': [-2.2, 1.6, 3.8], 'end': [-1.8, 1.6, 3.4],
+        'look': [0.1, 1.2, 0.0], 'lookEnd': [0.1, 1.2, 0.0],
+        'dof': 10, 'action': 'A vintage 1960s medical podium with crossed-out Rx prescription symbol.',
+        'props': 'vintage desk, brass balance, crossed-out prescription', 'words': 'You see, ten thousand was never a medical prescription.'
+    },
+    {
+        'id': 11, 'a': 1030, 'b': 1145, 'title': 'Manpo-kei 1965 launch',
+        'location': 'retro', 'light': 'golden', 'cameraType': 'retro shop counter push',
+        'pos': [-1.9, 1.5, 3.2], 'end': [-1.5, 1.45, 2.8],
+        'look': [0.2, 1.15, 0.0], 'lookEnd': [0.2, 1.15, 0.0],
+        'dof': 12, 'action': '1965 Japanese clockmaker holds up vintage mechanical Manpo-kei pedometer with brass dial.',
+        'props': 'wooden counter, Olympic poster, vintage pedometer', 'words': 'In nineteen sixty-five, a Japanese company launched the Manpo-kei pedometer.'
+    },
+    {
+        'id': 12, 'a': 1145, 'b': 1260, 'title': 'Walking kanji character',
+        'location': 'retro', 'light': 'golden', 'cameraType': 'character morph insert',
+        'pos': [-0.9, 1.4, 2.2], 'end': [-0.7, 1.4, 1.9],
+        'look': [0.0, 1.25, 0.0], 'lookEnd': [0.0, 1.25, 0.0],
+        'dof': 14, 'action': 'The Japanese kanji character for ten thousand 万 animates into running legs on a billboard.',
+        'props': 'painted billboard, glowing kanji strokes, running legs', 'words': 'They chose ten thousand because the Japanese character looks like a walking person.'
+    },
+    {
+        'id': 13, 'a': 1260, 'b': 1365, 'title': 'Advertising gimmick',
+        'location': 'retro', 'light': 'golden', 'cameraType': 'wide Olympic banner pan',
+        'pos': [-3.2, 2.0, 4.5], 'end': [-2.8, 1.9, 4.0],
+        'look': [0.2, 1.0, 0.0], 'lookEnd': [0.2, 1.0, 0.0],
+        'dof': 10, 'action': 'Tokyo 1964 banners wave in wind; cartoon citizens march happily with pedometers.',
+        'props': 'Olympic flags, street lamp, Tokyo banner', 'words': 'It was an advertising gimmick, not biology.'
+    },
+    {
+        'id': 14, 'a': 1365, 'b': 1475, 'title': 'Harvard longevity curve',
+        'location': 'living', 'light': 'blue', 'cameraType': '3D chart floating glide',
+        'pos': [-2.0, 1.7, 3.6], 'end': [-1.6, 1.65, 3.2],
+        'look': [0.1, 1.2, 0.0], 'lookEnd': [0.1, 1.2, 0.0],
+        'dof': 12, 'action': 'Luminous 3D line graph rises sharply from 4,000 to 7,500 steps, then plateaus flat to 10,000.',
+        'props': 'floating neon graph line, 7,500 marker, 10,000 marker', 'words': 'Harvard studies show longevity benefits level off around seventy-five hundred steps.'
+    },
+    {
+        'id': 15, 'a': 1475, 'b': 1585, 'title': 'Stealing your sleep',
+        'location': 'living', 'light': 'blue', 'cameraType': 'split comparison glide',
+        'pos': [-2.2, 1.5, 3.4], 'end': [-1.8, 1.5, 3.0],
+        'look': [0.0, 1.1, 0.0], 'lookEnd': [0.0, 1.1, 0.0],
+        'dof': 12, 'action': 'Pillow with a red battery drain icon vs Marcus yawning with heavy eyelids.',
+        'props': 'pillow, ticking clock face, battery drain icon', 'words': 'Pushing past that doesn\'t add years; it just steals your sleep.'
+    },
+    {
+        'id': 16, 'a': 1585, 'b': 1695, 'title': 'Silencing the watch',
+        'location': 'living', 'light': 'blue', 'cameraType': 'medium seated push-in',
+        'pos': [-1.9, 1.3, 3.2], 'end': [-1.5, 1.3, 2.8],
+        'look': [0.0, 1.0, 0.0], 'lookEnd': [0.0, 1.0, 0.0],
+        'dof': 12, 'action': 'Marcus sits up calmly, unclasps the smartwatch, and lays it quietly on the table.',
+        'props': 'side table, unclasped watch, peaceful posture', 'words': 'So Marcus silenced his watch,'
+    },
+    {
+        'id': 17, 'a': 1695, 'b': 1805, 'title': 'Smiling at cat',
+        'location': 'living', 'light': 'blue', 'cameraType': 'warm close pet pan',
+        'pos': [-1.4, 1.1, 2.6], 'end': [-1.1, 1.1, 2.3],
+        'look': [0.2, 0.85, 0.0], 'lookEnd': [0.2, 0.85, 0.0],
+        'dof': 14, 'action': 'Marcus gently strokes the purring cat on the armchair with a relaxed genuine smile.',
+        'props': 'armchair, sleeping cat, warm lamp pool', 'words': 'smiled at his cat,'
+    },
+    {
+        'id': 18, 'a': 1805, 'b': 1915, 'title': 'Four calm steps',
+        'location': 'hallway', 'light': 'blue', 'cameraType': 'hallway follow track',
+        'pos': [-2.5, 1.6, 3.8], 'end': [-2.0, 1.55, 3.3],
+        'look': [0.1, 1.05, 0.0], 'lookEnd': [0.1, 1.05, 0.0],
+        'dof': 12, 'action': 'Marcus walks unhurriedly down the dimly lit hallway: step one, step two, step three, step four.',
+        'props': 'hallway runner rug, bedroom doorway, nightlight', 'words': 'and took four steps'
+    },
+    {
+        'id': 19, 'a': 1915, 'b': 2055, 'title': 'Into bed callback',
+        'location': 'bedroom', 'light': 'golden', 'cameraType': 'cozy bedroom crane down',
+        'pos': [-2.0, 1.8, 3.4], 'end': [-1.6, 1.4, 2.8],
+        'look': [0.1, 0.9, 0.0], 'lookEnd': [0.1, 0.9, 0.0],
+        'dof': 12, 'action': 'Marcus slides under the quilt, turns off the bedside lamp, and falls soundly asleep.',
+        'props': 'bed, fluffy duvet, bedside lamp, nightstand', 'words': 'into bed.'
+    }
+]
+
+events = [
+    {'name': 'step-pace', 'frame': 45, 'shot': 1, 'reason': 'Marcus pacing stride.'},
+    {'name': 'watch-buzz', 'frame': 235, 'shot': 3, 'reason': 'Watch flashes red ring.'},
+    {'name': 'high-knee-1', 'frame': 520, 'shot': 6, 'reason': 'First high knee pump.'},
+    {'name': 'high-knee-2', 'frame': 555, 'shot': 6, 'reason': 'Second high knee pump.'},
+    {'name': 'toe-stub', 'frame': 640, 'shot': 7, 'reason': 'Toe strikes table corner.'},
+    {'name': 'rug-collapse', 'frame': 675, 'shot': 7, 'reason': 'Body collapses onto rug.'},
+    {'name': 'step-ping', 'frame': 755, 'shot': 8, 'reason': 'Tracker pings +2 steps.'},
+    {'name': 'pedometer-clack', 'frame': 1080, 'shot': 11, 'reason': 'Vintage 1965 pedometer clicks.'},
+    {'name': 'chart-glow', 'frame': 1410, 'shot': 14, 'reason': 'Harvard 7500 plateau shines.'},
+    {'name': 'watch-unclasp', 'frame': 1630, 'shot': 16, 'reason': 'Watch placed gently on table.'},
+    {'name': 'lamp-click', 'frame': 1980, 'shot': 19, 'reason': 'Bedside lamp turns off.'}
+]
+
+xfade = [
+    [1025, 1035],
+    [1360, 1370],
+    [1800, 1810],
+    [1910, 1920]
+]
+
+timeline_data = {
+    'fps': 30,
+    'total': 2055,
+    'shots': shots,
+    'events': events,
+    'xfade': xfade
+}
+
+shots_data = {
+    'shots': [{'id': s['id'], 'a': s['a'], 'b': s['b'], 'title': s['title'], 'words': s['words']} for s in shots],
+    'planned': shots,
+    'xfade': xfade
+}
+
+out_dir = Path('claude-animated-shorts/projects/ten-thousand-origin')
+(out_dir / 'timeline.json').write_text(json.dumps(timeline_data, indent=2), encoding='utf-8')
+(out_dir / 'shots.json').write_text(json.dumps(shots_data, indent=2), encoding='utf-8')
+
+# Write shots.md table
+md_lines = [
+    '# Shots Schedule: Where Did 10,000 Steps Come From?',
+    '',
+    '| Shot | Frames | Duration | Spoken text | Location | Light | Camera | What moves |',
+    '|---|---|---|---|---|---|---|---|'
+]
+for s in shots:
+    dur = (s['b'] - s['a']) / 30.0
+    md_lines.append(f"| {s['id']} | {s['a']}-{s['b']} | {dur:.2f}s | {s['words']} | {s['location']} | {s['light']} | {s['cameraType']} | {s['action']} |")
+
+(out_dir / 'shots.md').write_text('\n'.join(md_lines), encoding='utf-8')
+print('Generated timeline.json, shots.json, and shots.md successfully.')

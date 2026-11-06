@@ -1,0 +1,660 @@
+{
+  "fps": 30,
+  "total": 1894,
+  "shots": [
+    {
+      "id": 1,
+      "title": "The wristwatch boss",
+      "a": 0,
+      "b": 100,
+      "location": "street",
+      "light": "day",
+      "cameraType": "medium tracking",
+      "pos": [
+        -1.5,
+        2.2,
+        5.4
+      ],
+      "end": [
+        1.8,
+        1.85,
+        4.3
+      ],
+      "look": [
+        -2,
+        1.0,
+        -0.8
+      ],
+      "lookEnd": [
+        1.1,
+        1.0,
+        -0.8
+      ],
+      "dof": 10,
+      "action": "Marcus walks briskly and raises his attached wrist; eyebrows lower.",
+      "props": "watch",
+      "travel": true,
+      "words": "Marcus let a wristwatch boss him around. It never even said please."
+    },
+    {
+      "id": 2,
+      "title": "An imagined challenge",
+      "a": 100,
+      "b": 230,
+      "location": "street",
+      "light": "day",
+      "cameraType": "aerial wide",
+      "pos": [
+        -6.8,
+        6.9,
+        14.8
+      ],
+      "end": [
+        -6.0,
+        6.5,
+        13.8
+      ],
+      "look": [
+        -2.7,
+        2.8,
+        1.65
+      ],
+      "lookEnd": [
+        -1.7,
+        2.6,
+        1.0
+      ],
+      "dof": 0,
+      "action": "Marcus walks from the parked car toward the familiar house; a neighbor crosses deep background.",
+      "props": "parked car, mailbox",
+      "travel": true,
+      "words": "In this imagined thirty-day challenge, he decided ten thousand steps would fix his routine."
+    },
+    {
+      "id": 3,
+      "title": "The long route",
+      "a": 230,
+      "b": 311,
+      "location": "street",
+      "light": "day",
+      "cameraType": "low side dolly",
+      "pos": [
+        -0.5,
+        0.85,
+        4.3
+      ],
+      "end": [
+        2.2,
+        1.1,
+        3.7
+      ],
+      "look": [
+        -1.8,
+        0.7,
+        -0.5
+      ],
+      "lookEnd": [
+        1.0,
+        0.8,
+        -0.5
+      ],
+      "dof": 10,
+      "action": "Marcus leaves the car behind and strides right past the porch.",
+      "props": "car, sidewalk",
+      "travel": true,
+      "words": "So he parked farther away. Took the long route home."
+    },
+    {
+      "id": 4,
+      "title": "Dinner cools",
+      "a": 311,
+      "b": 420,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "foreground rack and lateral move",
+      "pos": [
+        2.0,
+        1.8,
+        6.4
+      ],
+      "end": [
+        2.3,
+        1.7,
+        5.8
+      ],
+      "look": [
+        1.05,
+        1.05,
+        -1.65
+      ],
+      "lookEnd": [
+        1.25,
+        1.05,
+        -1.65
+      ],
+      "dof": 11,
+      "action": "A bowl on the porch table loses steam while Marcus walks another lap behind it and checks his watch.",
+      "props": "bowl, porch table, watch",
+      "travel": true,
+      "words": "Then marched around the block while his dinner went cold. The watch kept counting."
+    },
+    {
+      "id": 5,
+      "title": "Someone is waiting",
+      "a": 420,
+      "b": 511,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "medium daughter push",
+      "pos": [
+        -0.15,
+        1.5,
+        3.0
+      ],
+      "end": [
+        0.2,
+        1.4,
+        2.4
+      ],
+      "look": [
+        0.6,
+        0.8,
+        -2.05
+      ],
+      "lookEnd": [
+        0.6,
+        0.85,
+        -2.05
+      ],
+      "dof": 11,
+      "action": "Daughter shifts weight and blinks, holding the backpack by its handle.",
+      "props": "backpack, door",
+      "travel": false,
+      "words": "His daughter kept waiting by the door, holding her little backpack."
+    },
+    {
+      "id": 6,
+      "title": "One more lap",
+      "a": 511,
+      "b": 640,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "oblique tracking",
+      "pos": [
+        2.6,
+        2.3,
+        6.2
+      ],
+      "end": [
+        2.0,
+        2.15,
+        5.6
+      ],
+      "look": [
+        -0.15,
+        1.05,
+        -1.7
+      ],
+      "lookEnd": [
+        -0.2,
+        1.05,
+        -1.7
+      ],
+      "dof": 10,
+      "action": "Marcus approaches the doorstep, raises his wrist, turns, then walks away while daughter waits.",
+      "props": "watch, backpack, doormat",
+      "travel": true,
+      "words": "One evening, he reached the doorstep, checked his wrist, and turned straight around for another lap."
+    },
+    {
+      "id": 7,
+      "title": "Luckily",
+      "a": 640,
+      "b": 709,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "wrist object follow",
+      "pos": [
+        0.68,
+        1.21,
+        0.18
+      ],
+      "end": [
+        0.38,
+        1.09,
+        -0.18
+      ],
+      "look": [
+        0.06,
+        0.92,
+        -1.4
+      ],
+      "lookEnd": [
+        0.06,
+        0.94,
+        -1.4
+      ],
+      "dof": 14,
+      "action": "A complete forearm raises the watch; its ring fills and a localized star bursts.",
+      "props": "attached watch",
+      "travel": false,
+      "words": "Luckily, the watch finally celebrated. Unluckily,"
+    },
+    {
+      "id": 8,
+      "title": "Refrigerator experiment",
+      "a": 709,
+      "b": 790,
+      "location": "home",
+      "light": "day",
+      "cameraType": "bowl object follow",
+      "pos": [
+        102.1,
+        1.85,
+        4.4
+      ],
+      "end": [
+        102.6,
+        1.8,
+        3.9
+      ],
+      "look": [
+        101.65,
+        1.1,
+        -0.8
+      ],
+      "lookEnd": [
+        101.95,
+        1.1,
+        -1.0
+      ],
+      "dof": 13,
+      "action": "Marcus carries the bowl in his hand toward the open refrigerator; the door swings.",
+      "props": "bowl, visible hand, refrigerator",
+      "travel": true,
+      "words": "Unluckily, dinner had become a refrigerator experiment."
+    },
+    {
+      "id": 9,
+      "title": "Movement counts",
+      "a": 790,
+      "b": 978,
+      "location": "street",
+      "light": "day",
+      "cameraType": "low tracking to medium",
+      "pos": [
+        9.0,
+        1.0,
+        5.7
+      ],
+      "end": [
+        13.0,
+        2.1,
+        4.8
+      ],
+      "look": [
+        9.1,
+        0.8,
+        -0.5
+      ],
+      "lookEnd": [
+        13.4,
+        1.0,
+        -0.5
+      ],
+      "dof": 10,
+      "action": "Marcus and two neighbors stride; push-offs and contact puffs show muscular work. The watch changes while his ordinary body keeps moving.",
+      "props": "shoes, watch, trees",
+      "travel": true,
+      "words": "You see, walking uses muscles and energy, and regular physical activity supports health. But ten thousand isn't a magic switch."
+    },
+    {
+      "id": 10,
+      "title": "Population evidence",
+      "a": 978,
+      "b": 1145,
+      "location": "street",
+      "light": "blue",
+      "cameraType": "wide lateral cohort",
+      "pos": [
+        21.6,
+        3.9,
+        10.3
+      ],
+      "end": [
+        25.7,
+        3.5,
+        9.4
+      ],
+      "look": [
+        23,
+        0.9,
+        -0.35
+      ],
+      "lookEnd": [
+        26.4,
+        1.05,
+        -0.5
+      ],
+      "dof": 0,
+      "action": "Three visibly different adults walk along routes of different lengths; a physical open study book and magnifier occupy foreground.",
+      "props": "study book, magnifier, walkers",
+      "travel": true,
+      "words": "Research links more daily steps with lower mortality risk, with benefits associated with counts below ten thousand too."
+    },
+    {
+      "id": 11,
+      "title": "No personal promise",
+      "a": 1145,
+      "b": 1253,
+      "location": "home",
+      "light": "blue",
+      "cameraType": "medium three-quarter",
+      "pos": [
+        102.4,
+        2.3,
+        4.9
+      ],
+      "end": [
+        101.9,
+        2.2,
+        4.6
+      ],
+      "look": [
+        100.3,
+        1.05,
+        0.1
+      ],
+      "lookEnd": [
+        100.3,
+        1.05,
+        0.1
+      ],
+      "dof": 11,
+      "action": "Marcus looks from the book to his watch, opens a hand and gives a modest shrug.",
+      "props": "book, watch, cup",
+      "travel": false,
+      "words": "Those studies show an association, not a promise about what happens to Marcus."
+    },
+    {
+      "id": 12,
+      "title": "One coin",
+      "a": 1253,
+      "b": 1326,
+      "location": "home",
+      "light": "blue",
+      "cameraType": "coin object follow",
+      "pos": [
+        99.9,
+        2.25,
+        2.5
+      ],
+      "end": [
+        99.83,
+        1.9,
+        2.25
+      ],
+      "look": [
+        99.6,
+        1.45,
+        0.25
+      ],
+      "lookEnd": [
+        99.6,
+        1.22,
+        0.25
+      ],
+      "dof": 15,
+      "action": "A visible hand releases a coin; the camera follows its fall into the jar.",
+      "props": "hand, coin, jar",
+      "travel": false,
+      "words": "Think of putting coins in a jar. Small deposits still"
+    },
+    {
+      "id": 13,
+      "title": "Small deposits",
+      "a": 1326,
+      "b": 1410,
+      "location": "home",
+      "light": "blue",
+      "cameraType": "top-down jar insert",
+      "pos": [
+        100.35,
+        3.4,
+        1.25
+      ],
+      "end": [
+        100.1,
+        3.05,
+        1.12
+      ],
+      "look": [
+        99.6,
+        1.12,
+        0.25
+      ],
+      "lookEnd": [
+        99.6,
+        1.13,
+        0.25
+      ],
+      "dof": 13,
+      "action": "Several coins land, tumble and settle; another joins them without any magical transformation.",
+      "props": "coins, transparent jar",
+      "travel": false,
+      "words": "count; the jar doesn't ignore them until one special coin arrives."
+    },
+    {
+      "id": 14,
+      "title": "Walks that fit",
+      "a": 1410,
+      "b": 1521,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "bag-side tracking",
+      "pos": [
+        11.1,
+        2.0,
+        5.4
+      ],
+      "end": [
+        14.0,
+        1.9,
+        4.8
+      ],
+      "look": [
+        11.6,
+        1.0,
+        -0.5
+      ],
+      "lookEnd": [
+        14.5,
+        1.0,
+        -0.5
+      ],
+      "dof": 10,
+      "action": "Marcus carries a grocery bag on a short errand, then continues into a small lunchtime loop.",
+      "props": "grocery bag, shop frontage",
+      "travel": true,
+      "words": "So Marcus stopped building his whole evening around the counter. He walked short errands,"
+    },
+    {
+      "id": 15,
+      "title": "School together",
+      "a": 1521,
+      "b": 1602,
+      "location": "street",
+      "light": "day",
+      "cameraType": "wide side tracking toward school",
+      "pos": [
+        39.1,
+        3.4,
+        8.3
+      ],
+      "end": [
+        40.3,
+        3.0,
+        7.8
+      ],
+      "look": [
+        39.0,
+        1.5,
+        -2.0
+      ],
+      "lookEnd": [
+        40.25,
+        1.4,
+        -2.1
+      ],
+      "dof": 0,
+      "action": "Marcus and daughter walk toward the school forecourt; the backpack rides on her shoulders.",
+      "props": "backpack, school gateway",
+      "travel": true,
+      "words": "errands, took a lunchtime loop, and walked his daughter to school."
+    },
+    {
+      "id": 16,
+      "title": "Room for life",
+      "a": 1602,
+      "b": 1719,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "high diagonal follow",
+      "pos": [
+        5.7,
+        6.7,
+        9.0
+      ],
+      "end": [
+        5.0,
+        5.7,
+        7.3
+      ],
+      "look": [
+        1.4,
+        0.9,
+        -0.4
+      ],
+      "lookEnd": [
+        0.9,
+        0.9,
+        -0.7
+      ],
+      "dof": 0,
+      "action": "The pair choose the short path toward home while a neighbor continues on the longer pavement; walking stays relaxed.",
+      "props": "home, path, backpack",
+      "travel": true,
+      "words": "Some days were longer. Some were shorter. The routine finally had room for his actual life."
+    },
+    {
+      "id": 17,
+      "title": "The wrist rises again",
+      "a": 1719,
+      "b": 1800,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "medium close new angle",
+      "pos": [
+        -2.5,
+        1.85,
+        2.6
+      ],
+      "end": [
+        -2.1,
+        1.75,
+        2.35
+      ],
+      "look": [
+        0.3,
+        1.06,
+        -1.85
+      ],
+      "lookEnd": [
+        0.34,
+        1.06,
+        -1.85
+      ],
+      "dof": 13,
+      "action": "Back at the doorstep, Marcus starts checking the same wrist; daughter steps close.",
+      "props": "watch, doorstep",
+      "travel": false,
+      "words": "At the same doorstep, his wrist rose again."
+    },
+    {
+      "id": 18,
+      "title": "A much shorter boss",
+      "a": 1800,
+      "b": 1894,
+      "location": "street",
+      "light": "golden",
+      "cameraType": "two-person follow from a new angle",
+      "pos": [
+        -4.5,
+        2.2,
+        1.6
+      ],
+      "end": [
+        -3.65,
+        1.95,
+        1.8
+      ],
+      "look": [
+        0.1,
+        1.05,
+        -1.7
+      ],
+      "lookEnd": [
+        0.1,
+        1.05,
+        -0.7
+      ],
+      "dof": 11,
+      "action": "Her hand meets his. Both walk forward with their shared hand anchor locked; she leads and he smiles on the final word.",
+      "props": "joined hands, backpack, same doorstep",
+      "travel": true,
+      "words": "His daughter offered her hand. This time, he followed a much shorter boss."
+    }
+  ],
+  "events": [
+    {
+      "name": "watch-celebrate",
+      "frame": 674,
+      "shot": 7
+    },
+    {
+      "name": "coin-one",
+      "frame": 1283,
+      "shot": 12
+    },
+    {
+      "name": "coin-two",
+      "frame": 1328,
+      "shot": 13
+    },
+    {
+      "name": "coin-three",
+      "frame": 1378,
+      "shot": 13
+    },
+    {
+      "name": "turn",
+      "frame": 583,
+      "shot": 6
+    },
+    {
+      "name": "hands-meet",
+      "frame": 1821,
+      "shot": 18
+    }
+  ],
+  "xfade": [
+    [
+      709,
+      715
+    ],
+    [
+      1410,
+      1416
+    ]
+  ]
+}

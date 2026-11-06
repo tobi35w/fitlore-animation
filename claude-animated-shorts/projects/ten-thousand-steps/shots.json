@@ -1,0 +1,114 @@
+{
+  "shots": [
+    {
+      "id": 1,
+      "a": 0,
+      "b": 263
+    },
+    {
+      "id": 2,
+      "a": 263,
+      "b": 515
+    },
+    {
+      "id": 3,
+      "a": 515,
+      "b": 775
+    },
+    {
+      "id": 4,
+      "a": 775,
+      "b": 1047
+    },
+    {
+      "id": 5,
+      "a": 1047,
+      "b": 1304
+    },
+    {
+      "id": 6,
+      "a": 1304,
+      "b": 1538
+    },
+    {
+      "id": 7,
+      "a": 1538,
+      "b": 1784
+    },
+    {
+      "id": 8,
+      "a": 1784,
+      "b": 2018
+    },
+    {
+      "id": 9,
+      "a": 2018,
+      "b": 2286
+    },
+    {
+      "id": 10,
+      "a": 2286,
+      "b": 2574
+    },
+    {
+      "id": 11,
+      "a": 2574,
+      "b": 2828
+    },
+    {
+      "id": 12,
+      "a": 2828,
+      "b": 3061
+    },
+    {
+      "id": 13,
+      "a": 3061,
+      "b": 3272
+    },
+    {
+      "id": 14,
+      "a": 3272,
+      "b": 3536
+    },
+    {
+      "id": 15,
+      "a": 3536,
+      "b": 3745
+    }
+  ],
+  "planned": [
+    [
+      263,
+      514
+    ],
+    [
+      1047,
+      1303
+    ],
+    [
+      2574,
+      2827
+    ]
+  ],
+  "xfade": [],
+  "holdNotes": [
+    {
+      "scene": 2,
+      "a": 263,
+      "b": 514,
+      "reason": "Intentionally held detail composition from the supplied brief, with only subtle measurement/progress graphics. Not a stalled render."
+    },
+    {
+      "scene": 5,
+      "a": 1047,
+      "b": 1303,
+      "reason": "Intentionally held detail composition from the supplied brief, with only subtle measurement/progress graphics. Not a stalled render."
+    },
+    {
+      "scene": 11,
+      "a": 2574,
+      "b": 2827,
+      "reason": "Intentionally held detail composition from the supplied brief, with only subtle measurement/progress graphics. Not a stalled render."
+    }
+  ]
+}

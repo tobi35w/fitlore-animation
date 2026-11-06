@@ -1,0 +1,20 @@
+{
+  "compositionId": "FourteenMondays",
+  "quality": "final",
+  "output": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\FourteenMondays-final-1440x2560-v1-Adam.mp4",
+  "width": 1440,
+  "height": 2560,
+  "fps": 30,
+  "frames": 1992,
+  "frameOffset": 0,
+  "completeExport": true,
+  "audio": true,
+  "secondsToRender": 715.169,
+  "browser": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "browserErrors": [],
+  "sourceProject": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts",
+  "projectSlug": "fourteen-mondays",
+  "requiredPictureGate": false,
+  "requiredVisualReview": false,
+  "publish": true
+}

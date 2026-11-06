@@ -1,0 +1,91 @@
+{
+  "targetLufs": -14,
+  "music": {
+    "enabled": true,
+    "bpm": 96,
+    "gainDb": -8,
+    "duckDb": -7
+  },
+  "sfx": [
+    {
+      "name": "step-pace",
+      "at": 1.5,
+      "type": "pop",
+      "duration": 0.2,
+      "gainDb": -16,
+      "reason": "Marcus rapid slipper stride on rug."
+    },
+    {
+      "name": "watch-buzz",
+      "at": 7.83,
+      "type": "chime",
+      "duration": 0.35,
+      "gainDb": -14,
+      "reason": "Smartwatch vibrates with red warning ring."
+    },
+    {
+      "name": "high-knee-1",
+      "at": 17.33,
+      "type": "whoosh",
+      "duration": 0.25,
+      "gainDb": -16,
+      "reason": "Vigorous high knee pump while brushing teeth."
+    },
+    {
+      "name": "toe-stub",
+      "at": 21.33,
+      "type": "impact",
+      "duration": 0.35,
+      "gainDb": -12,
+      "reason": "Marcus stubs big toe against sideboard corner."
+    },
+    {
+      "name": "rug-collapse",
+      "at": 22.5,
+      "type": "impact",
+      "duration": 0.4,
+      "gainDb": -14,
+      "reason": "Body collapses onto soft living room rug."
+    },
+    {
+      "name": "tracker-ping",
+      "at": 25.17,
+      "type": "chime",
+      "duration": 0.45,
+      "gainDb": -12,
+      "reason": "Smartwatch registers fall as +2 steps."
+    },
+    {
+      "name": "pedometer-clack",
+      "at": 36.0,
+      "type": "pop",
+      "duration": 0.25,
+      "gainDb": -14,
+      "reason": "Mechanical click of 1965 Manpo-kei pedometer."
+    },
+    {
+      "name": "chart-glow",
+      "at": 47.0,
+      "type": "chime",
+      "duration": 0.4,
+      "gainDb": -14,
+      "reason": "Harvard 7500 steps longevity plateau highlights."
+    },
+    {
+      "name": "watch-unclasp",
+      "at": 54.33,
+      "type": "pop",
+      "duration": 0.25,
+      "gainDb": -16,
+      "reason": "Marcus unclasps watch and rests it on bedside table."
+    },
+    {
+      "name": "lamp-click",
+      "at": 66.0,
+      "type": "pop",
+      "duration": 0.2,
+      "gainDb": -16,
+      "reason": "Bedside lamp switch clicks off for sleep."
+    }
+  ]
+}

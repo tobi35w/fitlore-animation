@@ -1,0 +1,20 @@
+{
+  "compositionId": "PerfectStreaks",
+  "quality": "final",
+  "output": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-final-1440x2560-v1-Liam.mp4",
+  "width": 1440,
+  "height": 2560,
+  "fps": 30,
+  "frames": 1881,
+  "frameOffset": 0,
+  "completeExport": true,
+  "audio": true,
+  "secondsToRender": 526.232,
+  "browser": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "browserErrors": [],
+  "sourceProject": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts",
+  "projectSlug": "perfect-streaks",
+  "requiredPictureGate": true,
+  "requiredVisualReview": true,
+  "publish": true
+}

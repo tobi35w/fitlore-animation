@@ -1,0 +1,782 @@
+{
+  "fps": 30,
+  "total": 1981,
+  "shots": [
+    {
+      "id": 1,
+      "a": 0,
+      "b": 95,
+      "title": "The Monday promise",
+      "location": "kitchen",
+      "light": "day",
+      "cameraType": "medium push-in",
+      "pos": [
+        -2.5,
+        1.8,
+        4.2
+      ],
+      "end": [
+        -2.1,
+        1.75,
+        3.8
+      ],
+      "look": [
+        0.1,
+        1.15,
+        0.2
+      ],
+      "lookEnd": [
+        0.1,
+        1.15,
+        0.2
+      ],
+      "dof": 12,
+      "action": "Marcus points firmly at the Monday box on his wall calendar with confident optimism.",
+      "props": "wall calendar, table, pen",
+      "words": "Marcus promised he would start on Monday."
+    },
+    {
+      "id": 2,
+      "a": 95,
+      "b": 170,
+      "title": "Fourteen in a row",
+      "location": "kitchen",
+      "light": "day",
+      "cameraType": "low angle calendar pan",
+      "pos": [
+        -1.2,
+        1.3,
+        2.8
+      ],
+      "end": [
+        -0.8,
+        1.35,
+        2.5
+      ],
+      "look": [
+        0.4,
+        1.25,
+        0.1
+      ],
+      "lookEnd": [
+        0.4,
+        1.25,
+        0.1
+      ],
+      "dof": 14,
+      "action": "Camera pans across 14 crossed-out Monday squares on the long planner.",
+      "props": "grid of calendar squares, marker strokes",
+      "words": "Exactly fourteen Mondays in a row."
+    },
+    {
+      "id": 3,
+      "a": 170,
+      "b": 250,
+      "title": "Thursday gear haul",
+      "location": "hall",
+      "light": "day",
+      "cameraType": "medium lateral tracking",
+      "pos": [
+        2.8,
+        2.0,
+        5.0
+      ],
+      "end": [
+        3.3,
+        1.9,
+        4.7
+      ],
+      "look": [
+        1.0,
+        1.0,
+        0.5
+      ],
+      "lookEnd": [
+        1.5,
+        1.0,
+        0.5
+      ],
+      "dof": 0,
+      "action": "Marcus carries a brand new shoe box and water bottle into the hallway.",
+      "props": "shoe box, sleek water bottle, entrance mat",
+      "words": "Every Thursday, he bought new gear."
+    },
+    {
+      "id": 4,
+      "a": 250,
+      "b": 335,
+      "title": "Sunday night alarms",
+      "location": "kitchen",
+      "light": "golden",
+      "cameraType": "close tabletop push",
+      "pos": [
+        0.6,
+        1.5,
+        2.2
+      ],
+      "end": [
+        0.4,
+        1.45,
+        1.9
+      ],
+      "look": [
+        -0.2,
+        1.05,
+        0.0
+      ],
+      "lookEnd": [
+        -0.2,
+        1.05,
+        0.0
+      ],
+      "dof": 15,
+      "action": "Marcus sets three alarm clocks lined up in a row on the side table.",
+      "props": "three digital alarm clocks, lamp, notebook",
+      "words": "By Sunday night, he set three alarms"
+    },
+    {
+      "id": 5,
+      "a": 335,
+      "b": 405,
+      "title": "Total transformation ready",
+      "location": "kitchen",
+      "light": "golden",
+      "cameraType": "hero low angle tilt",
+      "pos": [
+        -1.8,
+        1.2,
+        3.6
+      ],
+      "end": [
+        -1.6,
+        1.35,
+        3.3
+      ],
+      "look": [
+        0.0,
+        1.3,
+        0.0
+      ],
+      "lookEnd": [
+        0.0,
+        1.3,
+        0.0
+      ],
+      "dof": 10,
+      "action": "Marcus stands hands on hips, radiating triumphant readiness for tomorrow.",
+      "props": "neatly folded workout outfit, gym bag",
+      "words": "for a total life transformation."
+    },
+    {
+      "id": 6,
+      "a": 405,
+      "b": 465,
+      "title": "Monday morning arrives",
+      "location": "kitchen",
+      "light": "storm",
+      "cameraType": "slow wide push",
+      "pos": [
+        -3.0,
+        2.4,
+        5.5
+      ],
+      "end": [
+        -2.6,
+        2.2,
+        5.1
+      ],
+      "look": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lookEnd": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dof": 0,
+      "action": "Morning dawns; gloomy grey light fills the room as Marcus stumbles in sleepily.",
+      "props": "window, grey sky, kitchen counter",
+      "words": "Then Monday arrived."
+    },
+    {
+      "id": 7,
+      "a": 465,
+      "b": 555,
+      "title": "The spilled coffee",
+      "location": "kitchen",
+      "light": "storm",
+      "cameraType": "tabletop insert retreat",
+      "pos": [
+        0.8,
+        1.6,
+        2.1
+      ],
+      "end": [
+        1.1,
+        1.7,
+        2.5
+      ],
+      "look": [
+        -0.1,
+        1.0,
+        0.0
+      ],
+      "lookEnd": [
+        -0.1,
+        1.0,
+        0.0
+      ],
+      "dof": 16,
+      "action": "A coffee mug knocks over, dark coffee spills across the edge of the daily schedule.",
+      "props": "tipped ceramic mug, spreading coffee stain, paper",
+      "words": "A spilled coffee or one grey cloud."
+    },
+    {
+      "id": 8,
+      "a": 555,
+      "b": 635,
+      "title": "The sigh of defeat",
+      "location": "kitchen",
+      "light": "storm",
+      "cameraType": "medium frontal push",
+      "pos": [
+        -0.2,
+        1.6,
+        3.4
+      ],
+      "end": [
+        -0.2,
+        1.55,
+        3.0
+      ],
+      "look": [
+        0.0,
+        1.15,
+        0.0
+      ],
+      "lookEnd": [
+        0.0,
+        1.15,
+        0.0
+      ],
+      "dof": 12,
+      "action": "Marcus drops his shoulders and sighs deeply with theatrical disappointment.",
+      "props": "stained mug, paper napkin",
+      "words": "Because the morning wasn't flawless, Marcus sighed"
+    },
+    {
+      "id": 9,
+      "a": 635,
+      "b": 725,
+      "title": "Postponed to next week",
+      "location": "kitchen",
+      "light": "storm",
+      "cameraType": "high angle calendar roll",
+      "pos": [
+        -1.0,
+        2.1,
+        3.0
+      ],
+      "end": [
+        -0.8,
+        1.9,
+        2.7
+      ],
+      "look": [
+        0.2,
+        1.2,
+        0.1
+      ],
+      "lookEnd": [
+        0.2,
+        1.2,
+        0.1
+      ],
+      "dof": 10,
+      "action": "Marcus draws a big red arrow from today's box directly to next Monday.",
+      "props": "wall calendar, red marker pen",
+      "words": "and postponed everything to next week."
+    },
+    {
+      "id": 10,
+      "a": 725,
+      "b": 840,
+      "title": "Museum of unopened boxes",
+      "location": "hall",
+      "light": "day",
+      "cameraType": "wide hallway tracking",
+      "pos": [
+        4.5,
+        2.2,
+        6.2
+      ],
+      "end": [
+        3.8,
+        2.0,
+        5.5
+      ],
+      "look": [
+        1.2,
+        0.9,
+        0.2
+      ],
+      "lookEnd": [
+        1.2,
+        0.9,
+        0.2
+      ],
+      "dof": 0,
+      "action": "Marcus squeezes past an impressive tower of unopened cardboard delivery boxes.",
+      "props": "stacked cardboard parcels, pristine sneaker box, coat rack",
+      "words": "His hallway became a museum of unopened boxes."
+    },
+    {
+      "id": 11,
+      "a": 840,
+      "b": 960,
+      "title": "Neighbour's cold car",
+      "location": "street",
+      "light": "day",
+      "cameraType": "wide outdoor dolly",
+      "pos": [
+        -6.2,
+        2.8,
+        7.8
+      ],
+      "end": [
+        -5.4,
+        2.5,
+        7.2
+      ],
+      "look": [
+        -1.5,
+        0.9,
+        0.0
+      ],
+      "lookEnd": [
+        -1.5,
+        0.9,
+        0.0
+      ],
+      "dof": 0,
+      "action": "Outside on the driveway, the older neighbour sits in an old pickup truck, turning the ignition key.",
+      "props": "pickup truck, driveway, front porch, fence",
+      "words": "Luckily, his neighbour was starting a cold car on Tuesday."
+    },
+    {
+      "id": 12,
+      "a": 960,
+      "b": 1085,
+      "title": "The unsolicited lecture",
+      "location": "street",
+      "light": "day",
+      "cameraType": "two-shot medium angle",
+      "pos": [
+        -3.8,
+        1.9,
+        4.8
+      ],
+      "end": [
+        -3.4,
+        1.85,
+        4.5
+      ],
+      "look": [
+        -1.2,
+        1.1,
+        0.2
+      ],
+      "lookEnd": [
+        -1.2,
+        1.1,
+        0.2
+      ],
+      "dof": 11,
+      "action": "Marcus approaches the car window, gesturing advice about engine warm-up and ideal atmospheric conditions.",
+      "props": "car window, neighbour at wheel, jacket",
+      "words": "Unluckily, Marcus wanted to explain optimal conditions."
+    },
+    {
+      "id": 13,
+      "a": 1085,
+      "b": 1195,
+      "title": "The engine rolls anyway",
+      "location": "street",
+      "light": "day",
+      "cameraType": "low road side follow",
+      "pos": [
+        -4.8,
+        1.3,
+        5.0
+      ],
+      "end": [
+        -3.2,
+        1.25,
+        4.8
+      ],
+      "look": [
+        -0.5,
+        0.8,
+        0.0
+      ],
+      "lookEnd": [
+        1.0,
+        0.8,
+        0.0
+      ],
+      "dof": 10,
+      "action": "The truck exhaust puffs a cartoon smoke ring, wheels spin, and the car rolls cheerfully down the lane.",
+      "props": "puff of exhaust smoke, turning tyres, driveway",
+      "words": "The engine coughed and rolled into gear anyway."
+    },
+    {
+      "id": 14,
+      "a": 1195,
+      "b": 1280,
+      "title": "The symbolic milestone",
+      "location": "kitchen",
+      "light": "blue",
+      "cameraType": "dolly across calendar desk",
+      "pos": [
+        -2.0,
+        2.5,
+        4.2
+      ],
+      "end": [
+        -1.6,
+        2.2,
+        3.8
+      ],
+      "look": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "lookEnd": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "dof": 0,
+      "action": "Marcus looks closely at the shiny gold-edged Monday marker on his desk.",
+      "props": "desk, notebook, gold Monday token",
+      "words": "You see, waiting for a symbolic Monday"
+    },
+    {
+      "id": 15,
+      "a": 1280,
+      "b": 1365,
+      "title": "Polished excuse",
+      "location": "kitchen",
+      "light": "blue",
+      "cameraType": "medium elevated push",
+      "pos": [
+        0.0,
+        2.2,
+        3.5
+      ],
+      "end": [
+        0.0,
+        1.9,
+        3.0
+      ],
+      "look": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "lookEnd": [
+        0.0,
+        1.1,
+        0.0
+      ],
+      "dof": 12,
+      "action": "Marcus looks at his hands, realizing how neat his excuses have been.",
+      "props": "open planner, pen on table",
+      "words": "is just a polished excuse to delay effort."
+    },
+    {
+      "id": 16,
+      "a": 1365,
+      "b": 1455,
+      "title": "The traffic light analogy",
+      "location": "street",
+      "light": "blue",
+      "cameraType": "high miniature road tilt",
+      "pos": [
+        0.0,
+        5.2,
+        5.8
+      ],
+      "end": [
+        0.0,
+        4.6,
+        5.2
+      ],
+      "look": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "lookEnd": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "dof": 14,
+      "action": "A stylized street intersection shows three traffic lights in a row at different colors.",
+      "props": "model street, traffic light post, mini car in driveway",
+      "words": "You don't wait for every traffic light in town"
+    },
+    {
+      "id": 17,
+      "a": 1455,
+      "b": 1535,
+      "title": "Just start rolling",
+      "location": "street",
+      "light": "blue",
+      "cameraType": "car follow push",
+      "pos": [
+        -2.2,
+        2.4,
+        4.2
+      ],
+      "end": [
+        -1.6,
+        2.0,
+        3.8
+      ],
+      "look": [
+        0.5,
+        0.6,
+        0.0
+      ],
+      "lookEnd": [
+        1.2,
+        0.6,
+        0.0
+      ],
+      "dof": 10,
+      "action": "The little car simply pulls forward into the street without hesitating.",
+      "props": "driveway curb, moving car, street lamp",
+      "words": "to turn green before leaving your driveway."
+    },
+    {
+      "id": 18,
+      "a": 1535,
+      "b": 1650,
+      "title": "Thursday arrives",
+      "location": "living",
+      "light": "golden",
+      "cameraType": "medium wide reveal",
+      "pos": [
+        -3.2,
+        2.5,
+        5.8
+      ],
+      "end": [
+        -2.6,
+        2.2,
+        5.2
+      ],
+      "look": [
+        0.2,
+        1.0,
+        0.2
+      ],
+      "lookEnd": [
+        0.2,
+        1.0,
+        0.2
+      ],
+      "dof": 0,
+      "action": "Thursday 3 PM: Marcus stands in his ordinary socks in the living room; kettle steams in background.",
+      "props": "steaming kettle, coffee table, living room rug, ordinary socks",
+      "words": "So on Thursday, Marcus didn't wait for a clean slate."
+    },
+    {
+      "id": 19,
+      "a": 1650,
+      "b": 1725,
+      "title": "Dropping to the rug",
+      "location": "living",
+      "light": "golden",
+      "cameraType": "low floor tracking",
+      "pos": [
+        -1.5,
+        1.2,
+        3.2
+      ],
+      "end": [
+        -1.1,
+        0.9,
+        2.8
+      ],
+      "look": [
+        0.3,
+        0.4,
+        0.0
+      ],
+      "lookEnd": [
+        0.3,
+        0.4,
+        0.0
+      ],
+      "dof": 12,
+      "action": "Marcus drops down onto the patterned rug right beside the coffee table.",
+      "props": "woven rug, coffee table leg, slippers on floor",
+      "words": "He dropped to his living room rug"
+    },
+    {
+      "id": 20,
+      "a": 1725,
+      "b": 1795,
+      "title": "Ten pushups in socks",
+      "location": "living",
+      "light": "golden",
+      "cameraType": "side pushup action camera",
+      "pos": [
+        2.2,
+        1.0,
+        3.0
+      ],
+      "end": [
+        1.8,
+        0.9,
+        2.7
+      ],
+      "look": [
+        -0.2,
+        0.35,
+        0.0
+      ],
+      "lookEnd": [
+        -0.2,
+        0.35,
+        0.0
+      ],
+      "dof": 14,
+      "action": "Marcus powers through pushups, arms flexing, face determined and energized.",
+      "props": "rug texture, socks, sweat puff",
+      "words": "and did ten pushups in his socks."
+    },
+    {
+      "id": 21,
+      "a": 1795,
+      "b": 1890,
+      "title": "Fourteen Mondays zero",
+      "location": "kitchen",
+      "light": "day",
+      "cameraType": "medium elevated sweep",
+      "pos": [
+        -2.4,
+        2.2,
+        3.8
+      ],
+      "end": [
+        -1.9,
+        2.0,
+        3.4
+      ],
+      "look": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "lookEnd": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "dof": 10,
+      "action": "The big wall calendar with its 14 pristine empty Monday checkmarks.",
+      "props": "calendar, untouched boxes in corner",
+      "words": "Fourteen perfect Mondays delivered nothing."
+    },
+    {
+      "id": 22,
+      "a": 1890,
+      "b": 1981,
+      "title": "One messy Thursday",
+      "location": "living",
+      "light": "golden",
+      "cameraType": "triumphant close-up",
+      "pos": [
+        -0.8,
+        1.6,
+        2.6
+      ],
+      "end": [
+        -0.6,
+        1.5,
+        2.3
+      ],
+      "look": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "lookEnd": [
+        0.2,
+        1.1,
+        0.0
+      ],
+      "dof": 13,
+      "action": "Marcus stands sweaty and smiling, holding a scribbled Thursday workout tally. The spell is broken.",
+      "props": "scribbled notepad, thumb up, steam from kettle",
+      "words": "One messy Thursday broke the spell."
+    }
+  ],
+  "xfade": [
+    [
+      400,
+      410
+    ],
+    [
+      835,
+      845
+    ],
+    [
+      1190,
+      1200
+    ],
+    [
+      1530,
+      1540
+    ]
+  ],
+  "events": [
+    {
+      "name": "coffee-spill",
+      "shot": 7,
+      "frame": 490
+    },
+    {
+      "name": "sigh-postpone",
+      "shot": 8,
+      "frame": 580
+    },
+    {
+      "name": "engine-puff",
+      "shot": 13,
+      "frame": 1115
+    },
+    {
+      "name": "rug-drop",
+      "shot": 19,
+      "frame": 1675
+    },
+    {
+      "name": "pushup-rep",
+      "shot": 20,
+      "frame": 1750
+    },
+    {
+      "name": "tally-tick",
+      "shot": 22,
+      "frame": 1930
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "TenThousandOrigin",
+  "slug": "ten-thousand-origin",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2055,
+  "audioFile": "projects/ten-thousand-origin/audio/mix.wav",
+  "voiceProvider": "kokoro",
+  "voice": "Adam US",
+  "voiceId": "am_adam",
+  "speed": 1,
+  "setupTest": false
+}

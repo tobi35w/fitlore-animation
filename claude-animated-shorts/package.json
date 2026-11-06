@@ -1,0 +1,45 @@
+{
+  "name": "animated-shorts-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local cartoon animation workflow with Remotion, Three.js, narration and audio tools",
+  "engines": { "node": ">=22" },
+  "overrides": { "zod": "4.6.6" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "studio": "node scripts/cli.mjs studio",
+    "doctor": "node scripts/doctor.mjs",
+    "check": "tsc --noEmit",
+    "new": "node scripts/cli.mjs new",
+    "voice": "node scripts/cli.mjs voice",
+    "audio": "node scripts/cli.mjs audio",
+    "render": "node scripts/cli.mjs render",
+    "stills": "node scripts/cli.mjs stills",
+    "qa": "node scripts/cli.mjs qa",
+    "smoke": "node scripts/cli.mjs smoke",
+    "assets": "node scripts/cli.mjs assets",
+    "skill:install": "node scripts/cli.mjs install-skill"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.2.2",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "postprocessing": "6.39.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.539",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "0.187.0",
+    "typescript": "5.9.3"
+  }
+}

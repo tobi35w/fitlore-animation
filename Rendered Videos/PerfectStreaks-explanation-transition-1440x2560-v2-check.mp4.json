@@ -1,0 +1,20 @@
+{
+  "compositionId": "PerfectStreaks",
+  "quality": "final",
+  "output": "C:\\Users\\tobik\\Documents\\Animation\\Rendered Videos\\PerfectStreaks-explanation-transition-1440x2560-v2-check.mp4",
+  "width": 1440,
+  "height": 2560,
+  "fps": 30,
+  "frames": 17,
+  "frameOffset": 854,
+  "completeExport": false,
+  "audio": true,
+  "secondsToRender": 15.792,
+  "browser": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "browserErrors": [],
+  "sourceProject": "C:\\Users\\tobik\\Documents\\Animation\\claude-animated-shorts",
+  "projectSlug": "perfect-streaks",
+  "requiredPictureGate": true,
+  "requiredVisualReview": true,
+  "publish": true
+}

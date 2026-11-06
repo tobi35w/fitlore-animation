@@ -1,0 +1,775 @@
+{
+  "fps": 30,
+  "total": 1881,
+  "shots": [
+    {
+      "title": "A month declared lost",
+      "startWord": 0,
+      "location": "court",
+      "light": "day",
+      "cameraType": "medium oblique push",
+      "pos": [
+        -2.8,
+        1.6,
+        4.5
+      ],
+      "end": [
+        -2.45,
+        1.62,
+        4.32
+      ],
+      "look": [
+        0.12,
+        1.1,
+        0.25
+      ],
+      "lookEnd": [
+        0.12,
+        1.12,
+        0.25
+      ],
+      "dof": 11,
+      "action": "Marcus raises the creased calendar, then recoils at its blank square; paper and eyebrows react on failure.",
+      "props": "held calendar, bin in background",
+      "travel": false,
+      "id": 1,
+      "a": 0,
+      "b": 97,
+      "words": "Marcus missed one workout and declared the whole month a failure."
+    },
+    {
+      "title": "The evening ritual",
+      "startWord": 11,
+      "location": "court",
+      "light": "day",
+      "cameraType": "wide lateral follow",
+      "pos": [
+        -5.8,
+        3.1,
+        6.5
+      ],
+      "end": [
+        -5.1,
+        2.7,
+        6.2
+      ],
+      "look": [
+        -1.9,
+        1,
+        0
+      ],
+      "lookEnd": [
+        -1.25,
+        1.1,
+        0
+      ],
+      "dof": 0,
+      "action": "Marcus finishes a short traveling exercise loop, stops and colours a square with a marker touching the held calendar.",
+      "props": "calendar, marker, mat, doorway",
+      "travel": true,
+      "objectFollow": true,
+      "id": 2,
+      "a": 97,
+      "b": 242,
+      "words": "Every evening, he trained, coloured one square green, and admired his perfect calendar."
+    },
+    {
+      "title": "Protecting the squares",
+      "startWord": 24,
+      "location": "court",
+      "light": "day",
+      "cameraType": "high medium rolling push",
+      "pos": [
+        -3.65,
+        2.7,
+        5.1
+      ],
+      "end": [
+        -3.15,
+        2.55,
+        4.8
+      ],
+      "look": [
+        -0.45,
+        1.05,
+        -0.1
+      ],
+      "lookEnd": [
+        -0.3,
+        1.07,
+        -0.1
+      ],
+      "dof": 10,
+      "roll": -0.035,
+      "rollEnd": 0.035,
+      "action": "Marcus hugs the calendar closer, checks it sternly, and turns his body away from the inviting path.",
+      "props": "calendar, path, umbrella",
+      "travel": false,
+      "id": 3,
+      "a": 242,
+      "b": 355,
+      "words": "Soon, protecting the streak became more important than enjoying the routine."
+    },
+    {
+      "title": "The lane floods",
+      "startWord": 35,
+      "location": "court",
+      "light": "storm",
+      "cameraType": "wide low retreat follow",
+      "pos": [
+        -4.5,
+        3.8,
+        8.6
+      ],
+      "end": [
+        -4.1,
+        3.6,
+        8.1
+      ],
+      "look": [
+        -0.5,
+        1.05,
+        0.7
+      ],
+      "lookEnd": [
+        -0.8,
+        1.03,
+        0.5
+      ],
+      "dof": 0,
+      "action": "Rain crosses the lit 3D courtyard, puddles ripple, and Marcus backs toward shelter as thunder starts.",
+      "props": "gutter, umbrella, puddles",
+      "travel": true,
+      "id": 4,
+      "a": 355,
+      "b": 406,
+      "words": "Then a storm flooded the lane."
+    },
+    {
+      "title": "One blank square",
+      "startWord": 41,
+      "location": "court",
+      "light": "storm",
+      "cameraType": "calendar insert",
+      "pos": [
+        2.22,
+        2.15,
+        1.66
+      ],
+      "end": [
+        2.06,
+        2.06,
+        1.46
+      ],
+      "look": [
+        1.4,
+        1.46,
+        -1
+      ],
+      "lookEnd": [
+        1.4,
+        1.46,
+        -1
+      ],
+      "dof": 15,
+      "fov": 44,
+      "action": "The paper rocks on its stand; a hand indicates the single blank square without covering the surrounding greens.",
+      "props": "physical calendar, supporting stand, visible hand",
+      "travel": false,
+      "objectFollow": true,
+      "id": 5,
+      "a": 406,
+      "b": 460,
+      "words": "One square stayed blank."
+    },
+    {
+      "title": "Toward the bin",
+      "startWord": 45,
+      "location": "court",
+      "light": "day",
+      "cameraType": "side tracking",
+      "pos": [
+        3.1,
+        2.3,
+        6
+      ],
+      "end": [
+        4.9,
+        2.2,
+        5.9
+      ],
+      "look": [
+        1.05,
+        1,
+        0.9
+      ],
+      "lookEnd": [
+        2.75,
+        1,
+        0.9
+      ],
+      "dof": 0,
+      "action": "Marcus walks toward the bin carrying the rolled tracker in one hand and his training shoes by their joined laces in the other.",
+      "props": "rolled calendar, training shoes, bin",
+      "travel": true,
+      "id": 6,
+      "a": 460,
+      "b": 555,
+      "words": "Marcus rolled up the calendar and marched his shoes toward the bin."
+    },
+    {
+      "title": "The neighbour's wall",
+      "startWord": 57,
+      "location": "workshop",
+      "light": "day",
+      "cameraType": "wide workshop reveal",
+      "pos": [
+        57.7,
+        3.6,
+        10.6
+      ],
+      "end": [
+        58.15,
+        3.2,
+        9.9
+      ],
+      "look": [
+        60.2,
+        1,
+        0.15
+      ],
+      "lookEnd": [
+        60.2,
+        1.03,
+        0.15
+      ],
+      "dof": 0,
+      "action": "Marcus approaches; the older builder carries a brick toward the unfinished top course.",
+      "props": "held brick, low wall, mortar tray, bucket",
+      "travel": true,
+      "id": 7,
+      "a": 555,
+      "b": 626,
+      "words": "Luckily, his neighbour was building a wall."
+    },
+    {
+      "title": "An unsolicited brick lecture",
+      "startWord": 64,
+      "location": "workshop",
+      "light": "day",
+      "cameraType": "medium two-shot",
+      "pos": [
+        61.9,
+        2.25,
+        8.5
+      ],
+      "end": [
+        61.6,
+        2.15,
+        8.3
+      ],
+      "look": [
+        60.4,
+        1.15,
+        0.4
+      ],
+      "lookEnd": [
+        60.4,
+        1.1,
+        0.4
+      ],
+      "dof": 10,
+      "roll": 0.035,
+      "rollEnd": -0.035,
+      "action": "Marcus gestures with the rolled calendar while the builder raises an eyebrow and keeps the brick in a visible hand.",
+      "props": "rolled calendar, held brick",
+      "travel": false,
+      "id": 8,
+      "a": 626,
+      "b": 704,
+      "words": "Unluckily, Marcus was about to explain bricks to a bricklayer.",
+      "fov": 42
+    },
+    {
+      "title": "The bricks remain",
+      "startWord": 74,
+      "location": "workshop",
+      "light": "day",
+      "cameraType": "low diagonal wall arc",
+      "pos": [
+        56.95,
+        2.15,
+        7.0
+      ],
+      "end": [
+        57.5,
+        2.0,
+        6.9
+      ],
+      "look": [
+        60.45,
+        0.97,
+        0
+      ],
+      "lookEnd": [
+        60.5,
+        0.97,
+        0
+      ],
+      "dof": 0,
+      "action": "Marcus points toward the empty end of the top course. The builder looks at the gap and then sweeps a free hand across the solid completed courses.",
+      "props": "supported brick courses, empty top slot, held brick",
+      "travel": false,
+      "id": 9,
+      "a": 704,
+      "b": 859,
+      "words": "He pointed at one empty space. The neighbour looked at the gap, then at all the bricks still standing.",
+      "fov": 44
+    },
+    {
+      "title": "Repetition in context",
+      "startWord": 93,
+      "location": "analogy",
+      "light": "blue",
+      "cameraType": "wide workbench dolly",
+      "pos": [
+        117.8,
+        3.5,
+        8.3
+      ],
+      "end": [
+        118.3,
+        3.15,
+        7.8
+      ],
+      "look": [
+        120,
+        1.25,
+        0.2
+      ],
+      "lookEnd": [
+        120.1,
+        1.22,
+        0.2
+      ],
+      "dof": 0,
+      "action": "The builder travels past the same bench with another brick; a paper calendar, book and familiar tools establish repetition in one setting.",
+      "props": "book, tracker, brick, cup, workbench",
+      "travel": true,
+      "id": 10,
+      "a": 859,
+      "b": 967,
+      "words": "You see, habits develop through repetition in a familiar situation."
+    },
+    {
+      "title": "A limited study finding",
+      "startWord": 103,
+      "location": "analogy",
+      "light": "blue",
+      "cameraType": "high oblique research-table move",
+      "pos": [
+        116.9,
+        4.7,
+        5.4
+      ],
+      "end": [
+        117.4,
+        4.15,
+        4.9
+      ],
+      "look": [
+        119.55,
+        1,
+        0.13
+      ],
+      "lookEnd": [
+        119.6,
+        1.05,
+        0.15
+      ],
+      "dof": 10,
+      "action": "A magnifier moves across a physical tracker; its one blank and many completed cells remain visible alongside a bound notebook. The scene illustrates the study rather than inventing data.",
+      "props": "tracker, moving magnifier, bound notebook, cup",
+      "travel": false,
+      "objectFollow": true,
+      "id": 11,
+      "a": 967,
+      "b": 1107,
+      "words": "In one study of everyday habits, missing a single opportunity did not materially disrupt the process."
+    },
+    {
+      "title": "Adding a brick",
+      "startWord": 119,
+      "location": "analogy",
+      "light": "blue",
+      "cameraType": "medium object-follow",
+      "pos": [
+        123,
+        3.25,
+        5.45
+      ],
+      "end": [
+        122.25,
+        2.75,
+        5.1
+      ],
+      "look": [
+        120.7,
+        1.35,
+        -0.12
+      ],
+      "lookEnd": [
+        120.55,
+        1.25,
+        -0.16
+      ],
+      "dof": 11,
+      "action": "A visible hand lowers one brick onto the supported top course and releases it. The camera follows its short descent; dust marks contact and the earlier bricks stay put.",
+      "props": "brick, hand, mini wall, separate next brick",
+      "travel": false,
+      "objectFollow": true,
+      "id": 12,
+      "a": 1107,
+      "b": 1238,
+      "words": "Think of adding bricks. Skipping one delivery doesn't make yesterday's wall disappear."
+    },
+    {
+      "title": "A site left idle",
+      "startWord": 131,
+      "location": "analogy",
+      "light": "blue",
+      "cameraType": "wide pull across unfinished work",
+      "pos": [
+        121.3,
+        3.3,
+        8.7
+      ],
+      "end": [
+        120.7,
+        3,
+        8.4
+      ],
+      "look": [
+        120.25,
+        1,
+        0.15
+      ],
+      "lookEnd": [
+        120.25,
+        1,
+        0.25
+      ],
+      "dof": 0,
+      "action": "The builder walks away from the bench. The wall and loose next brick remain; the unfinished top course does not grow.",
+      "props": "solid mini wall, untouched next brick, tools",
+      "travel": true,
+      "id": 13,
+      "a": 1238,
+      "b": 1327,
+      "words": "But abandoning the building site certainly stops it getting taller."
+    },
+    {
+      "title": "Shoes at the same doorway",
+      "startWord": 141,
+      "location": "court",
+      "light": "golden",
+      "cameraType": "shoe-level object-follow insert",
+      "pos": [
+        0.18,
+        1.28,
+        1.2
+      ],
+      "end": [
+        -0.02,
+        1.1,
+        1.03
+      ],
+      "look": [
+        -0.72,
+        0.24,
+        -2.24
+      ],
+      "lookEnd": [
+        -0.72,
+        0.19,
+        -2.24
+      ],
+      "dof": 14,
+      "fov": 38,
+      "action": "A sleeve and hand lower the paired trainers onto the same mat, release the joined laces, then withdraw.",
+      "props": "training shoes, hand, mat, doorway",
+      "travel": false,
+      "objectFollow": true,
+      "id": 14,
+      "a": 1327,
+      "b": 1406,
+      "words": "So the next evening, Marcus put his shoes beside the same doorway"
+    },
+    {
+      "title": "The next sensible step",
+      "startWord": 153,
+      "location": "court",
+      "light": "golden",
+      "cameraType": "wide tracking out from doorway",
+      "pos": [
+        2,
+        3.35,
+        8.6
+      ],
+      "end": [
+        4.1,
+        3.1,
+        8.2
+      ],
+      "look": [
+        -0.8,
+        1,
+        0.35
+      ],
+      "lookEnd": [
+        1.8,
+        1,
+        0.35
+      ],
+      "dof": 0,
+      "action": "Marcus walks a relaxed new loop, with a small hand gesture rejecting a doubled effort and a planted next step on the final word.",
+      "props": "doorway, mat, path, planters",
+      "travel": true,
+      "id": 15,
+      "a": 1406,
+      "b": 1568,
+      "words": "and returned to his usual routine. No heroic double session. Just the next sensible step."
+    },
+    {
+      "title": "A gap and seven later squares",
+      "startWord": 168,
+      "location": "court",
+      "light": "day",
+      "cameraType": "medium elevated calendar reveal",
+      "pos": [
+        3.8,
+        3,
+        4.7
+      ],
+      "end": [
+        3.25,
+        2.7,
+        4.4
+      ],
+      "look": [
+        1.4,
+        1.38,
+        -1
+      ],
+      "lookEnd": [
+        1.4,
+        1.4,
+        -1
+      ],
+      "dof": 11,
+      "action": "The physical calendar adds seven later green squares while its original blank stays blank. A slow elevated camera move reveals the whole supported tracker and table.",
+      "props": "calendar, stand, table, marker",
+      "travel": false,
+      "id": 16,
+      "a": 1568,
+      "b": 1713,
+      "words": "A week later, his calendar still had a gap. It also had seven new green squares."
+    },
+    {
+      "title": "The calendar lies flat",
+      "startWord": 184,
+      "location": "court",
+      "light": "golden",
+      "cameraType": "tabletop object-follow",
+      "pos": [
+        3.0,
+        3.4,
+        3.2
+      ],
+      "end": [
+        2.7,
+        3.2,
+        3.0
+      ],
+      "look": [
+        1.5,
+        1.3,
+        -1
+      ],
+      "lookEnd": [
+        1.65,
+        1.3,
+        -1.1
+      ],
+      "dof": 13,
+      "fov": 46,
+      "action": "The tracker unrolls and settles across the table. A hand brings the brick above it, ready to keep the paper flat.",
+      "props": "unrolling calendar, visible hand, held brick",
+      "travel": false,
+      "objectFollow": true,
+      "id": 17,
+      "a": 1713,
+      "b": 1799,
+      "words": "This time, Marcus used a brick to hold the calendar flat."
+    },
+    {
+      "title": "Progress needs a paperweight",
+      "startWord": 195,
+      "location": "court",
+      "light": "golden",
+      "cameraType": "new-angle paperweight close-up",
+      "pos": [
+        -0.1,
+        2.8,
+        1.65
+      ],
+      "end": [
+        0.02,
+        2.64,
+        1.47
+      ],
+      "look": [
+        1.55,
+        1.01,
+        -0.99
+      ],
+      "lookEnd": [
+        1.55,
+        1.01,
+        -0.99
+      ],
+      "dof": 14,
+      "fov": 36,
+      "action": "The hand releases the brick onto the corner on paperweight. The imperfect tracker stays flat as the hand withdraws and the camera finishes on the last word.",
+      "props": "brick, calendar with one blank and seven later greens, hand",
+      "travel": false,
+      "objectFollow": true,
+      "id": 18,
+      "a": 1799,
+      "b": 1881,
+      "words": "Apparently, progress needed a paperweight more than a perfect record."
+    }
+  ],
+  "events": [
+    {
+      "name": "failure",
+      "frame": 70,
+      "shot": 1,
+      "wordIndex": 10,
+      "word": "failure."
+    },
+    {
+      "name": "green-stamp",
+      "frame": 160,
+      "shot": 2,
+      "wordIndex": 18,
+      "word": "green,"
+    },
+    {
+      "name": "thunder",
+      "frame": 364,
+      "shot": 4,
+      "wordIndex": 37,
+      "word": "storm"
+    },
+    {
+      "name": "blank",
+      "frame": 430,
+      "shot": 5,
+      "wordIndex": 44,
+      "word": "blank."
+    },
+    {
+      "name": "roll-calendar",
+      "frame": 472,
+      "shot": 6,
+      "wordIndex": 46,
+      "word": "rolled"
+    },
+    {
+      "name": "wall-gap",
+      "frame": 733,
+      "shot": 9,
+      "wordIndex": 79,
+      "word": "space."
+    },
+    {
+      "name": "wall-standing",
+      "frame": 829,
+      "shot": 9,
+      "wordIndex": 92,
+      "word": "standing."
+    },
+    {
+      "name": "brick-land",
+      "frame": 1123,
+      "shot": 12,
+      "wordIndex": 122,
+      "word": "bricks."
+    },
+    {
+      "name": "shoes-set",
+      "frame": 1376,
+      "shot": 14,
+      "wordIndex": 148,
+      "word": "shoes"
+    },
+    {
+      "name": "sensible-step",
+      "frame": 1540,
+      "shot": 15,
+      "wordIndex": 167,
+      "word": "step."
+    },
+    {
+      "name": "seven-green",
+      "frame": 1657,
+      "shot": 16,
+      "wordIndex": 180,
+      "word": "seven"
+    },
+    {
+      "name": "brick-ready",
+      "frame": 1745,
+      "shot": 17,
+      "wordIndex": 189,
+      "word": "brick"
+    },
+    {
+      "name": "calendar-flat",
+      "frame": 1768,
+      "shot": 17,
+      "wordIndex": 194,
+      "word": "flat."
+    },
+    {
+      "name": "paperweight",
+      "frame": 1830,
+      "shot": 18,
+      "wordIndex": 199,
+      "word": "paperweight"
+    }
+  ],
+  "xfade": [
+    [
+      555,
+      561
+    ],
+    [
+      859,
+      865
+    ],
+    [
+      1327,
+      1333
+    ],
+    [
+      1568,
+      1574
+    ],
+    [
+      1713,
+      1719
+    ]
+  ]
+}
