@@ -12,7 +12,7 @@ An autonomous 3D vertical animation production and scheduling pipeline for **Fit
 ## Repository Structure
 ```
 ├── .github/workflows/
-│   └── daily-video-automation.yml   # 12:00 PM WAT daily cloud automation
+│   └── daily-video-automation.yml   # 2:00 PM WAT daily cloud automation
 ├── claude-animated-shorts/          # Remotion & Three.js animation engine
 │   ├── projects/                    # Storyboards, scripts, narration, and scenes
 │   ├── scripts/kokoro_voice.py      # Portable Kokoro TTS synthesizer
@@ -38,6 +38,6 @@ Connect this repository to **Antigravity Remote** at [antigravity.google.com](ht
 - The cloud agent can run `python scripts/produce_and_schedule.py` directly inside Google's managed cloud container.
 
 ### 3. Fully Automated (via GitHub Actions)
-The workflow in `.github/workflows/daily-video-automation.yml` triggers automatically every day at 12:00 PM WAT:
+The workflow in `.github/workflows/daily-video-automation.yml` triggers automatically every day at 2:00 PM WAT:
 - Set `SCHEDULEPOST_API_KEY` in your GitHub repository secrets (**Settings > Secrets and variables > Actions**).
 - Produces the next video, uploads and books it on SchedulePost for 7:30 PM, and automatically commits the updated [`FITLORE_VIDEO_LIBRARY.json`](FITLORE_VIDEO_LIBRARY.json) back to the repo.

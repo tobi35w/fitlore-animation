@@ -2,8 +2,8 @@ name: Daily FitLore Video Automation
 
 on:
   schedule:
-    # 11:00 UTC is 12:00 WAT (Africa/Lagos)
-    - cron: '0 11 * * *'
+    # 13:00 UTC is 14:00 WAT (2:00 PM Africa/Lagos)
+    - cron: '0 13 * * *'
   workflow_dispatch:
     inputs:
       test_mode:
@@ -69,7 +69,7 @@ jobs:
           fi
 
       - name: Commit & Push Updated History and Receipts
-        if: ${{ !inputs.test_mode }}
+        if: ${{ github.event_name == 'schedule' || inputs.test_mode == false }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
